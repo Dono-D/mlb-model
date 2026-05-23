@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T20:45:52.162752Z",
+  "generated_at": "2026-05-23T21:59:35.874470Z",
   "as_of_date": "2026-05-23",
   "win_totals_last_updated": "2026-03-01",
   "teams": {
@@ -153,21 +153,6 @@
         "description": "Slightly outperforming expectations"
       }
     },
-    "134": {
-      "name": "Pirates",
-      "expectation": {
-        "preseason_win_total": 78,
-        "games_played": 51,
-        "actual_wins": 26,
-        "actual_losses": 25,
-        "win_pct": 0.51,
-        "expected_wins": 24.6,
-        "delta": 1.4,
-        "projected_wins": 82.6,
-        "label": "On Track \u27a1\ufe0f",
-        "description": "Performing in line with expectations"
-      }
-    },
     "109": {
       "name": "D-backs",
       "expectation": {
@@ -194,6 +179,21 @@
         "expected_wins": 23.0,
         "delta": 1.0,
         "projected_wins": 76.2,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations"
+      }
+    },
+    "134": {
+      "name": "Pirates",
+      "expectation": {
+        "preseason_win_total": 78,
+        "games_played": 52,
+        "actual_wins": 26,
+        "actual_losses": 26,
+        "win_pct": 0.5,
+        "expected_wins": 25.0,
+        "delta": 1.0,
+        "projected_wins": 81.0,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations"
       }
@@ -288,6 +288,21 @@
         "description": "Performing in line with expectations"
       }
     },
+    "141": {
+      "name": "Blue Jays",
+      "expectation": {
+        "preseason_win_total": 88,
+        "games_played": 52,
+        "actual_wins": 25,
+        "actual_losses": 27,
+        "win_pct": 0.481,
+        "expected_wins": 28.2,
+        "delta": -3.2,
+        "projected_wins": 77.9,
+        "label": "Behind \ud83d\udcc9",
+        "description": "Slightly underperforming expectations"
+      }
+    },
     "143": {
       "name": "Phillies",
       "expectation": {
@@ -314,21 +329,6 @@
         "expected_wins": 28.6,
         "delta": -3.6,
         "projected_wins": 77.9,
-        "label": "Behind \ud83d\udcc9",
-        "description": "Slightly underperforming expectations"
-      }
-    },
-    "141": {
-      "name": "Blue Jays",
-      "expectation": {
-        "preseason_win_total": 88,
-        "games_played": 51,
-        "actual_wins": 24,
-        "actual_losses": 27,
-        "win_pct": 0.471,
-        "expected_wins": 27.7,
-        "delta": -3.7,
-        "projected_wins": 76.2,
         "label": "Behind \ud83d\udcc9",
         "description": "Slightly underperforming expectations"
       }
