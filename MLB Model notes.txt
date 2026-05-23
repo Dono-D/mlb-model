@@ -1,0 +1,6 @@
+"To run a specific pillar/process"
+
+& "C:\Users\17139\AppData\Local\Programs\Python\Python311\python.exe" [script_name].py
+
+"To run all"
+& "C:\Users\17139\AppData\Local\Programs\Python\Python311\python.exe" run_all.py
