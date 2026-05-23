@@ -1,0 +1,33 @@
+name: Daily MLB Model Refresh
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 9am ET (2pm UTC) every day
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run MLB model
+        run: python run_all.py
+
+      - name: Commit updated data
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add data/bullpen.json data/expectations.json data/combined.json
+          git diff --staged --quiet || git commit -m "Daily refresh $(date +'%Y-%m-%d')"
+          git push
