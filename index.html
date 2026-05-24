@@ -24,23 +24,14 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    gap: 12px;
   }
 
-  .logo {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: #fff;
-    text-transform: uppercase;
-  }
-
+  .logo { font-size: 13px; font-weight: 600; letter-spacing: 2px; color: #fff; text-transform: uppercase; white-space: nowrap; }
   .logo span { color: #22c55e; }
+  .meta { font-size: 11px; color: #444; letter-spacing: 0.5px; flex: 1; text-align: center; }
 
-  .meta {
-    font-size: 11px;
-    color: #555;
-    letter-spacing: 0.5px;
-  }
+  .top-actions { display: flex; gap: 8px; align-items: center; }
 
   .refresh-btn {
     font-family: inherit;
@@ -54,17 +45,36 @@
     cursor: pointer;
     border-radius: 4px;
     transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .refresh-btn:hover { border-color: #22c55e; color: #22c55e; }
+  .refresh-btn.loading { color: #333; border-color: #1e1e1e; cursor: wait; }
+  .refresh-btn.primary { border-color: #22c55e; color: #22c55e; }
+  .refresh-btn.primary:hover { background: #22c55e; color: #000; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
   }
 
-  .refresh-btn:hover { border-color: #22c55e; color: #22c55e; }
-  .refresh-btn.loading { color: #555; border-color: #222; cursor: wait; }
-
-  .container { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+  .stat-card {
+    background: #111;
+    border: 1px solid #1e1e1e;
+    border-radius: 6px;
+    padding: 12px 14px;
+  }
+  .stat-label { font-size: 10px; color: #444; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 5px; }
+  .stat-value { font-size: 20px; font-weight: 600; color: #e8e8e8; }
+  .stat-sub { font-size: 10px; color: #333; margin-top: 2px; }
 
   .controls {
     display: flex;
-    gap: 8px;
-    margin-bottom: 20px;
+    gap: 6px;
+    margin-bottom: 16px;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -74,95 +84,75 @@
     font-size: 11px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    padding: 6px 14px;
+    padding: 6px 12px;
     border: 1px solid #2a2a2a;
     background: transparent;
     color: #555;
     cursor: pointer;
     border-radius: 3px;
     transition: all 0.15s;
+    white-space: nowrap;
   }
-
   .filter-btn:hover { border-color: #444; color: #aaa; }
-
-  .filter-btn.active {
-    background: #22c55e;
-    border-color: #22c55e;
-    color: #000;
-    font-weight: 600;
-  }
-
-  .sort-wrap {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .sort-label { font-size: 11px; color: #444; letter-spacing: 0.5px; }
-
-  select {
-    font-family: inherit;
-    font-size: 11px;
-    padding: 6px 10px;
-    border: 1px solid #2a2a2a;
-    background: #111;
-    color: #666;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+  .filter-btn.active { background: #22c55e; border-color: #22c55e; color: #000; font-weight: 600; }
 
   .table-wrap { width: 100%; overflow-x: auto; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 800px; }
 
   thead th {
     text-align: left;
     font-size: 10px;
     color: #444;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    padding: 0 12px 10px;
+    padding: 0 10px 10px;
     border-bottom: 1px solid #1a1a1a;
     white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.1s;
   }
-
+  thead th:hover { color: #888; }
+  thead th.sorted { color: #22c55e; }
   thead th:first-child { padding-left: 0; }
+  .sort-arrow { margin-left: 4px; opacity: 0.5; }
 
   tbody tr.team-row {
     border-bottom: 1px solid #161616;
     cursor: pointer;
     transition: background 0.1s;
   }
-
   tbody tr.team-row:hover { background: #141414; }
-
   tbody tr.detail-row { display: none; background: #0f0f0f; }
   tbody tr.detail-row.open { display: table-row; }
 
-  td { padding: 12px; vertical-align: middle; }
+  td { padding: 11px 10px; vertical-align: middle; }
   td:first-child { padding-left: 0; }
 
   .team-name { font-size: 13px; font-weight: 600; color: #e8e8e8; white-space: nowrap; }
-  .team-full { font-size: 10px; color: #3a3a3a; margin-top: 2px; letter-spacing: 0.3px; }
-
   .record { font-size: 12px; color: #666; white-space: nowrap; }
   .record strong { color: #aaa; }
 
-  .tank-wrap { display: flex; align-items: center; gap: 10px; }
-
-  .tank-bar {
-    width: 70px;
-    height: 5px;
-    background: #1e1e1e;
+  .streak {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
     border-radius: 3px;
-    overflow: hidden;
-    flex-shrink: 0;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
   }
+  .streak.w { background: #0a1f0a; color: #22c55e; border: 1px solid #153a15; }
+  .streak.l { background: #1f0a0a; color: #ef4444; border: 1px solid #3a1515; }
 
-  .tank-fill { height: 100%; border-radius: 3px; transition: width 0.4s ease; }
+  .l10 { font-size: 11px; color: #555; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .l10 .good { color: #22c55e; }
+  .l10 .bad { color: #ef4444; }
 
-  .tank-text { font-size: 10px; color: #444; white-space: nowrap; letter-spacing: 0.5px; }
+  .tank-wrap { display: flex; align-items: center; gap: 8px; }
+  .tank-bar { width: 60px; height: 5px; background: #1e1e1e; border-radius: 3px; overflow: hidden; flex-shrink: 0; }
+  .tank-fill { height: 100%; border-radius: 3px; }
+  .tank-text { font-size: 10px; color: #444; white-space: nowrap; }
 
   .delta { font-size: 13px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .delta.pos { color: #22c55e; }
@@ -175,84 +165,44 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    padding: 4px 10px;
+    padding: 4px 9px;
     border-radius: 3px;
     white-space: nowrap;
   }
-
   .badge.hot    { background: #1a0a0a; color: #ef4444; border: 1px solid #3a1515; }
   .badge.ahead  { background: #0a110a; color: #22c55e; border: 1px solid #153a15; }
-  .badge.track  { background: #111; color: #555; border: 1px solid #222; }
+  .badge.track  { background: #111; color: #444; border: 1px solid #222; }
   .badge.behind { background: #0f0d07; color: #f59e0b; border: 1px solid #332b0f; }
   .badge.cold   { background: #0a0d1a; color: #6b87ef; border: 1px solid #151f3a; }
 
-  .proj { font-size: 11px; color: #444; white-space: nowrap; }
+  .proj { font-size: 11px; color: #444; }
 
   .detail-inner {
-    padding: 12px 16px 16px;
+    padding: 12px 16px 14px;
     border-left: 2px solid #1e1e1e;
     margin: 0 0 0 4px;
   }
-
-  .detail-title { font-size: 10px; color: #333; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 10px; }
-
+  .detail-title { font-size: 10px; color: #333; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; }
   .reliever-list { display: flex; flex-wrap: wrap; gap: 6px; }
-
   .reliever-chip {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 11px;
-    padding: 5px 10px;
-    border: 1px solid #1e1e1e;
-    border-radius: 3px;
-    color: #555;
-    background: #111;
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11px; padding: 5px 10px;
+    border: 1px solid #1e1e1e; border-radius: 3px;
+    color: #555; background: #111;
   }
-
   .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 
-  .loading-state {
-    text-align: center;
-    padding: 80px 20px;
-    color: #333;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
+  .loading-state { text-align: center; padding: 80px 20px; color: #333; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+  .error-state { text-align: center; padding: 80px 20px; color: #ef4444; font-size: 12px; }
 
-  .error-state {
-    text-align: center;
-    padding: 80px 20px;
-    color: #ef4444;
-    font-size: 12px;
-    letter-spacing: 1px;
-  }
-
-  .stat-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
-    margin-bottom: 24px;
-  }
-
-  .stat-card {
-    background: #111;
-    border: 1px solid #1e1e1e;
-    border-radius: 6px;
-    padding: 14px 16px;
-  }
-
-  .stat-label { font-size: 10px; color: #444; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
-  .stat-value { font-size: 22px; font-weight: 600; color: #e8e8e8; }
-  .stat-sub { font-size: 11px; color: #333; margin-top: 2px; }
+  .spinner { display: inline-block; animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   @media (max-width: 600px) {
-    .top-bar { padding: 12px 16px; }
+    .top-bar { padding: 10px 14px; }
     .logo { font-size: 11px; }
     .meta { display: none; }
-    td { padding: 10px 8px; }
-    .team-full { display: none; }
+    .container { padding: 16px 12px; }
   }
 </style>
 </head>
@@ -261,13 +211,13 @@
 <div class="top-bar">
   <div class="logo">MLB <span>Model</span></div>
   <div class="meta" id="meta">Loading...</div>
-  <button class="refresh-btn" id="refresh-btn" onclick="loadData()">↻ Refresh</button>
+  <div class="top-actions">
+    <button class="refresh-btn" id="refresh-btn" onclick="loadData()">↻ Refresh</button>
+  </div>
 </div>
 
 <div class="container">
-  <div id="app">
-    <div class="loading-state">Fetching live data...</div>
-  </div>
+  <div id="app"><div class="loading-state"><span class="spinner">↻</span> Fetching live data...</div></div>
 </div>
 
 <script>
@@ -275,24 +225,42 @@ const DATA_URL = 'https://raw.githubusercontent.com/Dono-D/mlb-model/main/data/c
 
 let allTeams = [];
 let currentFilter = 'all';
-let currentSort = 'delta';
+let currentSort = { col: 'delta', dir: 'desc' };
 let openTeam = null;
 
-function tankColor(score) {
-  if (score >= 0.75) return '#22c55e';
-  if (score >= 0.50) return '#f59e0b';
-  if (score >= 0.25) return '#f97316';
+const COLS = [
+  { key: 'name',    label: 'Team',    sortable: true  },
+  { key: 'record',  label: 'Record',  sortable: true  },
+  { key: 'streak',  label: 'Streak',  sortable: true  },
+  { key: 'last10',  label: 'Last 10', sortable: true  },
+  { key: 'bullpen', label: 'Bullpen', sortable: true  },
+  { key: 'delta',   label: 'Delta',   sortable: true  },
+  { key: 'proj',    label: 'Proj W',  sortable: true  },
+  { key: 'status',  label: 'Status',  sortable: false },
+];
+
+function tankColor(s) {
+  if (s >= 0.75) return '#22c55e';
+  if (s >= 0.50) return '#f59e0b';
+  if (s >= 0.25) return '#f97316';
+  return '#ef4444';
+}
+
+function dotColor(a) {
+  if (a >= 0.75) return '#22c55e';
+  if (a >= 0.50) return '#f59e0b';
+  if (a >= 0.25) return '#f97316';
   return '#ef4444';
 }
 
 function badgeClass(label) {
   if (!label) return 'track';
   const l = label.toLowerCase();
-  if (l.includes('hot')) return 'hot';
-  if (l.includes('ahead')) return 'ahead';
+  if (l.includes('hot'))      return 'hot';
+  if (l.includes('ahead'))    return 'ahead';
   if (l.includes('on track')) return 'track';
-  if (l.includes('behind')) return 'behind';
-  if (l.includes('cold')) return 'cold';
+  if (l.includes('behind'))   return 'behind';
+  if (l.includes('cold'))     return 'cold';
   return 'track';
 }
 
@@ -301,34 +269,144 @@ function badgeText(label) {
   return label.replace(/[🔥📈➡️📉❄️]/gu, '').trim();
 }
 
-function dotColor(avail) {
-  if (avail >= 0.75) return '#22c55e';
-  if (avail >= 0.50) return '#f59e0b';
-  if (avail >= 0.25) return '#f97316';
-  return '#ef4444';
+function streakClass(s) { return s && s.startsWith('W') ? 'w' : 'l'; }
+
+function sortTeams(teams) {
+  const { col, dir } = currentSort;
+  const mult = dir === 'desc' ? -1 : 1;
+
+  return [...teams].sort((a, b) => {
+    let va, vb;
+    const ea = a.expectation, eb = b.expectation;
+    switch (col) {
+      case 'name':    va = a.name; vb = b.name; return mult * va.localeCompare(vb);
+      case 'record':  va = ea.actual_wins; vb = eb.actual_wins; break;
+      case 'streak':
+        va = parseInt((ea.streak || '0').replace(/[WL]/, '')) * (ea.streak?.startsWith('W') ? 1 : -1);
+        vb = parseInt((eb.streak || '0').replace(/[WL]/, '')) * (eb.streak?.startsWith('W') ? 1 : -1);
+        break;
+      case 'last10':  va = ea.last10_wins ?? 0; vb = eb.last10_wins ?? 0; break;
+      case 'bullpen': va = a.bullpen.score; vb = b.bullpen.score; mult === -1 ? null : null; break;
+      case 'delta':   va = ea.delta; vb = eb.delta; break;
+      case 'proj':    va = ea.projected_wins; vb = eb.projected_wins; break;
+      default:        va = ea.delta; vb = eb.delta;
+    }
+    return mult * (va - vb);
+  });
+}
+
+function filterTeams(teams) {
+  switch (currentFilter) {
+    case 'hot':      return teams.filter(t => t.expectation.delta >= 5);
+    case 'ahead':    return teams.filter(t => t.expectation.delta >= 2 && t.expectation.delta < 5);
+    case 'track':    return teams.filter(t => t.expectation.delta >= -2 && t.expectation.delta < 2);
+    case 'behind':   return teams.filter(t => t.expectation.delta < -2 && t.expectation.delta >= -5);
+    case 'cold':     return teams.filter(t => t.expectation.delta < -5);
+    case 'depleted': return teams.filter(t => t.bullpen.score < 0.55);
+    case 'wstreak':  return teams.filter(t => (t.expectation.streak || '').startsWith('W'));
+    case 'lstreak':  return teams.filter(t => (t.expectation.streak || '').startsWith('L'));
+    default:         return teams;
+  }
+}
+
+function setSort(col) {
+  if (!COLS.find(c => c.key === col)?.sortable) return;
+  if (currentSort.col === col) {
+    currentSort.dir = currentSort.dir === 'desc' ? 'asc' : 'desc';
+  } else {
+    currentSort = { col, dir: 'desc' };
+  }
+  render();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  openTeam = null;
+  render();
+}
+
+function toggleDetail(name) {
+  const id = `detail-${name.replace(/[\s.]/g,'_')}`;
+  const row = document.getElementById(id);
+  if (!row) return;
+  if (openTeam === name) {
+    row.classList.remove('open');
+    openTeam = null;
+  } else {
+    if (openTeam) {
+      const prev = document.getElementById(`detail-${openTeam.replace(/[\s.]/g,'_')}`);
+      if (prev) prev.classList.remove('open');
+    }
+    row.classList.add('open');
+    openTeam = name;
+  }
 }
 
 function render() {
-  let teams = [...allTeams];
-
-  if (currentFilter === 'hot')      teams = teams.filter(t => t.expectation.delta >= 5);
-  else if (currentFilter === 'ahead')  teams = teams.filter(t => t.expectation.delta >= 2 && t.expectation.delta < 5);
-  else if (currentFilter === 'track')  teams = teams.filter(t => t.expectation.delta >= -2 && t.expectation.delta < 2);
-  else if (currentFilter === 'behind') teams = teams.filter(t => t.expectation.delta < -2 && t.expectation.delta >= -5);
-  else if (currentFilter === 'cold')   teams = teams.filter(t => t.expectation.delta < -5);
-  else if (currentFilter === 'depleted') teams = teams.filter(t => t.bullpen.score < 0.55);
-
-  if (currentSort === 'delta')   teams.sort((a,b) => b.expectation.delta - a.expectation.delta);
-  else if (currentSort === 'bullpen') teams.sort((a,b) => a.bullpen.score - b.bullpen.score);
-  else if (currentSort === 'wins')    teams.sort((a,b) => b.expectation.actual_wins - a.expectation.actual_wins);
-  else if (currentSort === 'name')    teams.sort((a,b) => a.name.localeCompare(b.name));
+  const teams = sortTeams(filterTeams(allTeams));
 
   const hot  = allTeams.filter(t => t.expectation.delta >= 5).length;
   const cold = allTeams.filter(t => t.expectation.delta < -5).length;
   const dep  = allTeams.filter(t => t.bullpen.score < 0.55).length;
   const avg  = allTeams.reduce((s,t) => s + t.bullpen.score, 0) / allTeams.length;
 
-  const html = `
+  const headers = COLS.map(c => {
+    const isSorted = currentSort.col === c.key;
+    const arrow = isSorted ? (currentSort.dir === 'desc' ? '↓' : '↑') : '';
+    const cls = isSorted ? 'sorted' : '';
+    const click = c.sortable ? `onclick="setSort('${c.key}')"` : '';
+    return `<th class="${cls}" ${click}>${c.label}${arrow ? `<span class="sort-arrow">${arrow}</span>` : ''}</th>`;
+  }).join('');
+
+  const rows = teams.map(team => {
+    const e = team.expectation;
+    const b = team.bullpen;
+    const pct = Math.round(b.score * 100);
+    const color = tankColor(b.score);
+    const dSign = e.delta > 0 ? '+' : '';
+    const dClass = e.delta >= 2 ? 'pos' : e.delta <= -2 ? 'neg' : 'neu';
+    const bc = badgeClass(e.label);
+    const bt = badgeText(e.label);
+    const sc = streakClass(e.streak);
+    const l10w = e.last10_wins ?? '-';
+    const l10l = e.last10_losses ?? '-';
+    const l10class = l10w >= 7 ? 'good' : l10w <= 3 ? 'bad' : '';
+    const id = team.name.replace(/[\s.]/g,'_');
+
+    const relievers = b.relievers && b.relievers.length > 0
+      ? b.relievers.map(r => {
+          const rest = r.days_rest === 1 ? '1d rest' : `${r.days_rest}d rest`;
+          return `<div class="reliever-chip"><div class="dot" style="background:${dotColor(r.availability)}"></div>${r.name} · ${rest} · ${(Math.round(r.recent_ip * 10)/10).toFixed(1)} IP</div>`;
+        }).join('')
+      : '<div style="font-size:11px;color:#333">No recent appearances</div>';
+
+    return `
+      <tr class="team-row" onclick="toggleDetail('${team.name}')">
+        <td><div class="team-name">${team.name}</div></td>
+        <td><span class="record"><strong>${e.actual_wins}-${e.actual_losses}</strong></span></td>
+        <td><span class="streak ${sc}">${e.streak || '-'}</span></td>
+        <td><span class="l10 ${l10class}">${l10w}-${l10l}</span></td>
+        <td>
+          <div class="tank-wrap">
+            <div class="tank-bar"><div class="tank-fill" style="width:${pct}%;background:${color}"></div></div>
+            <span class="tank-text">${b.label}</span>
+          </div>
+        </td>
+        <td><span class="delta ${dClass}">${dSign}${e.delta.toFixed(1)}</span></td>
+        <td><span class="proj">${e.projected_wins}W</span></td>
+        <td><span class="badge ${bc}">${bt}</span></td>
+      </tr>
+      <tr class="detail-row ${openTeam === team.name ? 'open' : ''}" id="detail-${id}">
+        <td colspan="8">
+          <div class="detail-inner">
+            <div class="detail-title">Bullpen arms · last 5 days</div>
+            <div class="reliever-list">${relievers}</div>
+          </div>
+        </td>
+      </tr>`;
+  }).join('');
+
+  document.getElementById('app').innerHTML = `
     <div class="stat-cards">
       <div class="stat-card">
         <div class="stat-label">Hot teams</div>
@@ -347,145 +425,50 @@ function render() {
       </div>
       <div class="stat-card">
         <div class="stat-label">Avg pen health</div>
-        <div class="stat-value">${Math.round(avg * 100)}<span style="font-size:14px;color:#444">%</span></div>
+        <div class="stat-value">${Math.round(avg * 100)}<span style="font-size:13px;color:#333">%</span></div>
         <div class="stat-sub">league average</div>
       </div>
     </div>
 
     <div class="controls">
-      <button class="filter-btn ${currentFilter==='all'?'active':''}" onclick="setFilter('all')">All</button>
-      <button class="filter-btn ${currentFilter==='hot'?'active':''}" onclick="setFilter('hot')">Hot</button>
-      <button class="filter-btn ${currentFilter==='ahead'?'active':''}" onclick="setFilter('ahead')">Ahead</button>
-      <button class="filter-btn ${currentFilter==='track'?'active':''}" onclick="setFilter('track')">On Track</button>
-      <button class="filter-btn ${currentFilter==='behind'?'active':''}" onclick="setFilter('behind')">Behind</button>
-      <button class="filter-btn ${currentFilter==='cold'?'active':''}" onclick="setFilter('cold')">Cold</button>
+      <button class="filter-btn ${currentFilter==='all'?'active':''}"      onclick="setFilter('all')">All</button>
+      <button class="filter-btn ${currentFilter==='hot'?'active':''}"      onclick="setFilter('hot')">Hot 🔥</button>
+      <button class="filter-btn ${currentFilter==='ahead'?'active':''}"    onclick="setFilter('ahead')">Ahead</button>
+      <button class="filter-btn ${currentFilter==='track'?'active':''}"    onclick="setFilter('track')">On Track</button>
+      <button class="filter-btn ${currentFilter==='behind'?'active':''}"   onclick="setFilter('behind')">Behind</button>
+      <button class="filter-btn ${currentFilter==='cold'?'active':''}"     onclick="setFilter('cold')">Cold ❄️</button>
       <button class="filter-btn ${currentFilter==='depleted'?'active':''}" onclick="setFilter('depleted')">Depleted pen</button>
-      <div class="sort-wrap">
-        <span class="sort-label">Sort</span>
-        <select onchange="setSort(this.value)">
-          <option value="delta" ${currentSort==='delta'?'selected':''}>Expectation delta</option>
-          <option value="bullpen" ${currentSort==='bullpen'?'selected':''}>Bullpen (worst first)</option>
-          <option value="wins" ${currentSort==='wins'?'selected':''}>Wins</option>
-          <option value="name" ${currentSort==='name'?'selected':''}>Team name</option>
-        </select>
-      </div>
+      <button class="filter-btn ${currentFilter==='wstreak'?'active':''}"  onclick="setFilter('wstreak')">Win streak</button>
+      <button class="filter-btn ${currentFilter==='lstreak'?'active':''}"  onclick="setFilter('lstreak')">Loss streak</button>
     </div>
 
     <div class="table-wrap">
       <table>
-        <thead>
-          <tr>
-            <th>Team</th>
-            <th>Record</th>
-            <th>Bullpen</th>
-            <th>Delta</th>
-            <th>Proj W</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${teams.map(team => {
-            const e = team.expectation;
-            const b = team.bullpen;
-            const pct = Math.round(b.score * 100);
-            const color = tankColor(b.score);
-            const dSign = e.delta > 0 ? '+' : '';
-            const dClass = e.delta >= 2 ? 'pos' : e.delta <= -2 ? 'neg' : 'neu';
-            const bc = badgeClass(e.label);
-            const bt = badgeText(e.label);
-            const isOpen = openTeam === team.name;
-
-            const relievers = b.relievers && b.relievers.length > 0
-              ? b.relievers.map(r => {
-                  const rest = r.days_rest === 1 ? '1 day rest' : `${r.days_rest} days rest`;
-                  return `<div class="reliever-chip"><div class="dot" style="background:${dotColor(r.availability)}"></div>${r.name} · ${rest} · ${Math.round(r.recent_ip * 10)/10} IP</div>`;
-                }).join('')
-              : '<div style="font-size:11px;color:#333">No recent appearances</div>';
-
-            return `
-              <tr class="team-row" onclick="toggleDetail('${team.name}')">
-                <td>
-                  <div class="team-name">${team.name}</div>
-                  <div class="team-full">${team.full_name || ''}</div>
-                </td>
-                <td><span class="record"><strong>${e.actual_wins}-${e.actual_losses}</strong></span></td>
-                <td>
-                  <div class="tank-wrap">
-                    <div class="tank-bar"><div class="tank-fill" style="width:${pct}%;background:${color}"></div></div>
-                    <span class="tank-text">${b.label}</span>
-                  </div>
-                </td>
-                <td><span class="delta ${dClass}">${dSign}${e.delta.toFixed(1)}</span></td>
-                <td><span class="proj">${e.projected_wins}W</span></td>
-                <td><span class="badge ${bc}">${bt}</span></td>
-              </tr>
-              <tr class="detail-row ${isOpen ? 'open' : ''}" id="detail-${team.name.replace(/\s/g,'_')}">
-                <td colspan="6">
-                  <div class="detail-inner">
-                    <div class="detail-title">Bullpen arms · last 5 days</div>
-                    <div class="reliever-list">${relievers}</div>
-                  </div>
-                </td>
-              </tr>
-            `;
-          }).join('')}
-        </tbody>
+        <thead><tr>${headers}</tr></thead>
+        <tbody>${rows}</tbody>
       </table>
-    </div>
-  `;
-
-  document.getElementById('app').innerHTML = html;
-}
-
-function toggleDetail(name) {
-  const id = `detail-${name.replace(/\s/g,'_')}`;
-  const row = document.getElementById(id);
-  if (!row) return;
-  if (openTeam === name) {
-    row.classList.remove('open');
-    openTeam = null;
-  } else {
-    if (openTeam) {
-      const prev = document.getElementById(`detail-${openTeam.replace(/\s/g,'_')}`);
-      if (prev) prev.classList.remove('open');
-    }
-    row.classList.add('open');
-    openTeam = name;
-  }
-}
-
-function setFilter(f) {
-  currentFilter = f;
-  openTeam = null;
-  render();
-}
-
-function setSort(v) {
-  currentSort = v;
-  openTeam = null;
-  render();
+    </div>`;
 }
 
 async function loadData() {
-  const btn = document.getElementById('refresh-btn');
+  const btn  = document.getElementById('refresh-btn');
   const meta = document.getElementById('meta');
   btn.classList.add('loading');
-  btn.textContent = '↻ Loading...';
+  btn.innerHTML = '<span class="spinner">↻</span> Loading...';
 
   try {
-    const url = DATA_URL + '?t=' + Date.now();
-    const res = await fetch(url);
+    const res  = await fetch(DATA_URL + '?t=' + Date.now());
     if (!res.ok) throw new Error('Failed to fetch data');
     const data = await res.json();
     allTeams = data.teams || [];
-    meta.textContent = `Last updated: ${data.as_of_date} · ${allTeams.length} teams`;
+    meta.textContent = `Last updated: ${data.as_of_date} · ${allTeams.length} teams · Click any row to expand`;
     render();
   } catch (err) {
     document.getElementById('app').innerHTML = `<div class="error-state">Error loading data: ${err.message}</div>`;
     meta.textContent = 'Error loading data';
   } finally {
     btn.classList.remove('loading');
-    btn.textContent = '↻ Refresh';
+    btn.innerHTML = '↻ Refresh';
   }
 }
 
