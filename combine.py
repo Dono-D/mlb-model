@@ -100,7 +100,10 @@ def run():
                 'delta': expectation['delta'],
                 'projected_wins': expectation['projected_wins'],
                 'label': expectation['label'],
-                'description': expectation['description']
+                'description': expectation['description'],
+                'streak': expectation.get('streak', '-'),
+                'last10_wins': expectation.get('last10_wins', 0),
+                'last10_losses': expectation.get('last10_losses', 0)
             }
         })
 
