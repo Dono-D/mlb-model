@@ -2,11 +2,11 @@ name: Daily MLB Model Refresh
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 9am ET (2pm UTC) every day
+    - cron: '0 13 * * *'  # 9am ET (1pm UTC) — accounts for EDT offset
   workflow_dispatch:        # allows manual trigger from GitHub UI
 
 permissions:
-  contents: write           # allows the workflow to push data files back to repo
+  contents: write
 
 jobs:
   refresh:
