@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T14:53:49.531350Z",
-  "as_of_date": "2026-07-16",
+  "generated_at": "2026-07-17T14:26:33.747304Z",
+  "as_of_date": "2026-07-17",
   "win_totals_last_updated": "2026-03-01",
   "teams": {
     "139": {
@@ -255,24 +255,6 @@
         "last10_losses": 4
       }
     },
-    "143": {
-      "name": "Phillies",
-      "expectation": {
-        "preseason_win_total": 90,
-        "games_played": 97,
-        "actual_wins": 54,
-        "actual_losses": 43,
-        "win_pct": 0.557,
-        "expected_wins": 53.9,
-        "delta": 0.1,
-        "projected_wins": 90.2,
-        "label": "On Track \u27a1\ufe0f",
-        "description": "Performing in line with expectations",
-        "streak": "W2",
-        "last10_wins": 5,
-        "last10_losses": 5
-      }
-    },
     "140": {
       "name": "Rangers",
       "expectation": {
@@ -287,6 +269,24 @@
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
         "streak": "W1",
+        "last10_wins": 5,
+        "last10_losses": 5
+      }
+    },
+    "143": {
+      "name": "Phillies",
+      "expectation": {
+        "preseason_win_total": 90,
+        "games_played": 98,
+        "actual_wins": 54,
+        "actual_losses": 44,
+        "win_pct": 0.551,
+        "expected_wins": 54.4,
+        "delta": -0.4,
+        "projected_wins": 89.3,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations",
+        "streak": "L1",
         "last10_wins": 5,
         "last10_losses": 5
       }
@@ -529,18 +529,18 @@
       "name": "Mets",
       "expectation": {
         "preseason_win_total": 91,
-        "games_played": 97,
-        "actual_wins": 40,
+        "games_played": 98,
+        "actual_wins": 41,
         "actual_losses": 57,
-        "win_pct": 0.412,
-        "expected_wins": 54.5,
-        "delta": -14.5,
-        "projected_wins": 66.8,
+        "win_pct": 0.418,
+        "expected_wins": 55.0,
+        "delta": -14.0,
+        "projected_wins": 67.8,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L3",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W1",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     }
   }
