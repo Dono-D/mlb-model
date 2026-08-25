@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-08-24T13:43:28.470190Z",
-  "as_of_date": "2026-08-24",
+  "generated_at": "2026-08-25T13:42:21.488312Z",
+  "as_of_date": "2026-08-25",
   "win_totals_last_updated": "2026-03-01",
   "teams": {
     "139": {
       "name": "Rays",
       "expectation": {
         "preseason_win_total": 77,
-        "games_played": 130,
-        "actual_wins": 77,
+        "games_played": 131,
+        "actual_wins": 78,
         "actual_losses": 53,
-        "win_pct": 0.592,
-        "expected_wins": 61.8,
-        "delta": 15.2,
-        "projected_wins": 96.0,
+        "win_pct": 0.595,
+        "expected_wins": 62.3,
+        "delta": 15.7,
+        "projected_wins": 96.5,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 3,
-        "last10_losses": 7
+        "streak": "W2",
+        "last10_wins": 4,
+        "last10_losses": 6
       }
     },
     "145": {
       "name": "White Sox",
       "expectation": {
         "preseason_win_total": 68,
-        "games_played": 130,
+        "games_played": 131,
         "actual_wins": 68,
-        "actual_losses": 62,
-        "win_pct": 0.523,
-        "expected_wins": 54.6,
-        "delta": 13.4,
-        "projected_wins": 84.7,
+        "actual_losses": 63,
+        "win_pct": 0.519,
+        "expected_wins": 55.0,
+        "delta": 13.0,
+        "projected_wins": 84.1,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 6,
-        "last10_losses": 4
+        "streak": "L1",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     "158": {
@@ -79,16 +79,16 @@
       "name": "Marlins",
       "expectation": {
         "preseason_win_total": 72,
-        "games_played": 131,
+        "games_played": 132,
         "actual_wins": 67,
-        "actual_losses": 64,
-        "win_pct": 0.511,
-        "expected_wins": 58.2,
-        "delta": 8.8,
-        "projected_wins": 82.9,
+        "actual_losses": 65,
+        "win_pct": 0.508,
+        "expected_wins": 58.7,
+        "delta": 8.3,
+        "projected_wins": 82.2,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W3",
+        "streak": "L1",
         "last10_wins": 5,
         "last10_losses": 5
       }
@@ -97,16 +97,16 @@
       "name": "Nationals",
       "expectation": {
         "preseason_win_total": 66,
-        "games_played": 132,
-        "actual_wins": 61,
+        "games_played": 133,
+        "actual_wins": 62,
         "actual_losses": 71,
-        "win_pct": 0.462,
-        "expected_wins": 53.8,
-        "delta": 7.2,
-        "projected_wins": 74.9,
+        "win_pct": 0.466,
+        "expected_wins": 54.2,
+        "delta": 7.8,
+        "projected_wins": 75.5,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "L4",
+        "streak": "W1",
         "last10_wins": 2,
         "last10_losses": 8
       }
@@ -133,52 +133,34 @@
       "name": "Rockies",
       "expectation": {
         "preseason_win_total": 56,
-        "games_played": 130,
-        "actual_wins": 50,
-        "actual_losses": 80,
-        "win_pct": 0.385,
-        "expected_wins": 44.9,
-        "delta": 5.1,
-        "projected_wins": 62.3,
-        "label": "Hot \ud83d\udd25",
-        "description": "Significantly outperforming expectations",
-        "streak": "L6",
-        "last10_wins": 3,
-        "last10_losses": 7
-      }
-    },
-    "109": {
-      "name": "D-backs",
-      "expectation": {
-        "preseason_win_total": 80,
         "games_played": 131,
-        "actual_wins": 69,
-        "actual_losses": 62,
-        "win_pct": 0.527,
-        "expected_wins": 64.7,
-        "delta": 4.3,
-        "projected_wins": 85.3,
+        "actual_wins": 50,
+        "actual_losses": 81,
+        "win_pct": 0.382,
+        "expected_wins": 45.3,
+        "delta": 4.7,
+        "projected_wins": 61.8,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "L7",
+        "last10_wins": 2,
+        "last10_losses": 8
       }
     },
     "142": {
       "name": "Twins",
       "expectation": {
         "preseason_win_total": 73,
-        "games_played": 131,
-        "actual_wins": 63,
+        "games_played": 132,
+        "actual_wins": 64,
         "actual_losses": 68,
-        "win_pct": 0.481,
-        "expected_wins": 59.0,
-        "delta": 4.0,
-        "projected_wins": 77.9,
+        "win_pct": 0.485,
+        "expected_wins": 59.5,
+        "delta": 4.5,
+        "projected_wins": 78.5,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "L3",
+        "streak": "W1",
         "last10_wins": 4,
         "last10_losses": 6
       }
@@ -187,52 +169,70 @@
       "name": "Cubs",
       "expectation": {
         "preseason_win_total": 88,
-        "games_played": 131,
-        "actual_wins": 75,
+        "games_played": 132,
+        "actual_wins": 76,
         "actual_losses": 56,
-        "win_pct": 0.573,
-        "expected_wins": 71.2,
-        "delta": 3.8,
-        "projected_wins": 92.7,
+        "win_pct": 0.576,
+        "expected_wins": 71.7,
+        "delta": 4.3,
+        "projected_wins": 93.3,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W2",
+        "last10_wins": 5,
+        "last10_losses": 5
+      }
+    },
+    "109": {
+      "name": "D-backs",
+      "expectation": {
+        "preseason_win_total": 80,
+        "games_played": 132,
+        "actual_wins": 69,
+        "actual_losses": 63,
+        "win_pct": 0.523,
+        "expected_wins": 65.2,
+        "delta": 3.8,
+        "projected_wins": 84.7,
+        "label": "Ahead \ud83d\udcc8",
+        "description": "Slightly outperforming expectations",
+        "streak": "L1",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     "135": {
       "name": "Padres",
       "expectation": {
         "preseason_win_total": 84,
-        "games_played": 131,
+        "games_played": 132,
         "actual_wins": 71,
-        "actual_losses": 60,
-        "win_pct": 0.542,
-        "expected_wins": 67.9,
-        "delta": 3.1,
-        "projected_wins": 87.8,
+        "actual_losses": 61,
+        "win_pct": 0.538,
+        "expected_wins": 68.4,
+        "delta": 2.6,
+        "projected_wins": 87.1,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "W3",
-        "last10_wins": 7,
-        "last10_losses": 3
+        "streak": "L1",
+        "last10_wins": 6,
+        "last10_losses": 4
       }
     },
     "111": {
       "name": "Red Sox",
       "expectation": {
         "preseason_win_total": 87,
-        "games_played": 130,
-        "actual_wins": 71,
+        "games_played": 131,
+        "actual_wins": 72,
         "actual_losses": 59,
-        "win_pct": 0.546,
-        "expected_wins": 69.8,
-        "delta": 1.2,
-        "projected_wins": 88.5,
+        "win_pct": 0.55,
+        "expected_wins": 70.4,
+        "delta": 1.6,
+        "projected_wins": 89.0,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "W3",
+        "streak": "W4",
         "last10_wins": 7,
         "last10_losses": 3
       }
@@ -259,88 +259,88 @@
       "name": "Guardians",
       "expectation": {
         "preseason_win_total": 80,
-        "games_played": 131,
-        "actual_wins": 65,
+        "games_played": 132,
+        "actual_wins": 66,
         "actual_losses": 66,
-        "win_pct": 0.496,
-        "expected_wins": 64.7,
-        "delta": 0.3,
-        "projected_wins": 80.4,
+        "win_pct": 0.5,
+        "expected_wins": 65.2,
+        "delta": 0.8,
+        "projected_wins": 81.0,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "W4",
-        "last10_wins": 6,
-        "last10_losses": 4
-      }
-    },
-    "143": {
-      "name": "Phillies",
-      "expectation": {
-        "preseason_win_total": 90,
-        "games_played": 131,
-        "actual_wins": 73,
-        "actual_losses": 58,
-        "win_pct": 0.557,
-        "expected_wins": 72.8,
-        "delta": 0.2,
-        "projected_wins": 90.3,
-        "label": "On Track \u27a1\ufe0f",
-        "description": "Performing in line with expectations",
-        "streak": "W9",
-        "last10_wins": 9,
-        "last10_losses": 1
+        "streak": "W5",
+        "last10_wins": 7,
+        "last10_losses": 3
       }
     },
     "134": {
       "name": "Pirates",
       "expectation": {
         "preseason_win_total": 78,
-        "games_played": 132,
-        "actual_wins": 63,
+        "games_played": 133,
+        "actual_wins": 64,
         "actual_losses": 69,
-        "win_pct": 0.477,
-        "expected_wins": 63.6,
-        "delta": -0.6,
-        "projected_wins": 77.3,
+        "win_pct": 0.481,
+        "expected_wins": 64.0,
+        "delta": -0.0,
+        "projected_wins": 78.0,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "L3",
+        "streak": "W1",
         "last10_wins": 5,
         "last10_losses": 5
+      }
+    },
+    "143": {
+      "name": "Phillies",
+      "expectation": {
+        "preseason_win_total": 90,
+        "games_played": 132,
+        "actual_wins": 73,
+        "actual_losses": 59,
+        "win_pct": 0.553,
+        "expected_wins": 73.3,
+        "delta": -0.3,
+        "projected_wins": 89.6,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations",
+        "streak": "L1",
+        "last10_wins": 9,
+        "last10_losses": 1
       }
     },
     "140": {
       "name": "Rangers",
       "expectation": {
         "preseason_win_total": 83,
-        "games_played": 131,
-        "actual_wins": 65,
+        "games_played": 132,
+        "actual_wins": 66,
         "actual_losses": 66,
-        "win_pct": 0.496,
-        "expected_wins": 67.1,
-        "delta": -2.1,
-        "projected_wins": 80.4,
-        "label": "Behind \ud83d\udcc9",
-        "description": "Slightly underperforming expectations",
-        "streak": "W1",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "win_pct": 0.5,
+        "expected_wins": 67.6,
+        "delta": -1.6,
+        "projected_wins": 81.0,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations",
+        "streak": "W2",
+        "last10_wins": 6,
+        "last10_losses": 4
       }
     },
     "113": {
       "name": "Reds",
       "expectation": {
         "preseason_win_total": 80,
-        "games_played": 131,
+        "games_played": 132,
         "actual_wins": 62,
-        "actual_losses": 69,
-        "win_pct": 0.473,
-        "expected_wins": 64.7,
-        "delta": -2.7,
-        "projected_wins": 76.7,
+        "actual_losses": 70,
+        "win_pct": 0.47,
+        "expected_wins": 65.2,
+        "delta": -3.2,
+        "projected_wins": 76.1,
         "label": "Behind \ud83d\udcc9",
         "description": "Slightly underperforming expectations",
-        "streak": "L1",
+        "streak": "L2",
         "last10_wins": 3,
         "last10_losses": 7
       }
@@ -385,18 +385,18 @@
       "name": "Angels",
       "expectation": {
         "preseason_win_total": 71,
-        "games_played": 131,
+        "games_played": 132,
         "actual_wins": 52,
-        "actual_losses": 79,
-        "win_pct": 0.397,
-        "expected_wins": 57.4,
-        "delta": -5.4,
-        "projected_wins": 64.3,
+        "actual_losses": 80,
+        "win_pct": 0.394,
+        "expected_wins": 57.9,
+        "delta": -5.9,
+        "projected_wins": 63.8,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L1",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "L2",
+        "last10_wins": 4,
+        "last10_losses": 6
       }
     },
     "110": {
@@ -417,24 +417,6 @@
         "last10_losses": 5
       }
     },
-    "116": {
-      "name": "Tigers",
-      "expectation": {
-        "preseason_win_total": 85,
-        "games_played": 130,
-        "actual_wins": 61,
-        "actual_losses": 69,
-        "win_pct": 0.469,
-        "expected_wins": 68.2,
-        "delta": -7.2,
-        "projected_wins": 76.0,
-        "label": "Cold \u2744\ufe0f",
-        "description": "Significantly underperforming expectations",
-        "streak": "L5",
-        "last10_wins": 2,
-        "last10_losses": 8
-      }
-    },
     "141": {
       "name": "Blue Jays",
       "expectation": {
@@ -451,6 +433,24 @@
         "streak": "L1",
         "last10_wins": 5,
         "last10_losses": 5
+      }
+    },
+    "116": {
+      "name": "Tigers",
+      "expectation": {
+        "preseason_win_total": 85,
+        "games_played": 131,
+        "actual_wins": 61,
+        "actual_losses": 70,
+        "win_pct": 0.466,
+        "expected_wins": 68.7,
+        "delta": -7.7,
+        "projected_wins": 75.4,
+        "label": "Cold \u2744\ufe0f",
+        "description": "Significantly underperforming expectations",
+        "streak": "L6",
+        "last10_wins": 1,
+        "last10_losses": 9
       }
     },
     "118": {
@@ -471,58 +471,58 @@
         "last10_losses": 1
       }
     },
-    "133": {
-      "name": "Athletics",
-      "expectation": {
-        "preseason_win_total": 75,
-        "games_played": 131,
-        "actual_wins": 51,
-        "actual_losses": 80,
-        "win_pct": 0.389,
-        "expected_wins": 60.6,
-        "delta": -9.6,
-        "projected_wins": 63.1,
-        "label": "Cold \u2744\ufe0f",
-        "description": "Significantly underperforming expectations",
-        "streak": "W2",
-        "last10_wins": 4,
-        "last10_losses": 6
-      }
-    },
     "136": {
       "name": "Mariners",
       "expectation": {
         "preseason_win_total": 89,
-        "games_played": 131,
-        "actual_wins": 62,
+        "games_played": 132,
+        "actual_wins": 63,
         "actual_losses": 69,
-        "win_pct": 0.473,
-        "expected_wins": 72.0,
-        "delta": -10.0,
-        "projected_wins": 76.7,
+        "win_pct": 0.477,
+        "expected_wins": 72.5,
+        "delta": -9.5,
+        "projected_wins": 77.3,
+        "label": "Cold \u2744\ufe0f",
+        "description": "Significantly underperforming expectations",
+        "streak": "W1",
+        "last10_wins": 6,
+        "last10_losses": 4
+      }
+    },
+    "133": {
+      "name": "Athletics",
+      "expectation": {
+        "preseason_win_total": 75,
+        "games_played": 132,
+        "actual_wins": 51,
+        "actual_losses": 81,
+        "win_pct": 0.386,
+        "expected_wins": 61.1,
+        "delta": -10.1,
+        "projected_wins": 62.6,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
         "streak": "L1",
-        "last10_wins": 6,
-        "last10_losses": 4
+        "last10_wins": 3,
+        "last10_losses": 7
       }
     },
     "137": {
       "name": "Giants",
       "expectation": {
         "preseason_win_total": 80,
-        "games_played": 130,
-        "actual_wins": 52,
+        "games_played": 131,
+        "actual_wins": 53,
         "actual_losses": 78,
-        "win_pct": 0.4,
-        "expected_wins": 64.2,
-        "delta": -12.2,
-        "projected_wins": 64.8,
+        "win_pct": 0.405,
+        "expected_wins": 64.7,
+        "delta": -11.7,
+        "projected_wins": 65.5,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L4",
-        "last10_wins": 2,
-        "last10_losses": 8
+        "streak": "W1",
+        "last10_wins": 3,
+        "last10_losses": 7
       }
     },
     "121": {
