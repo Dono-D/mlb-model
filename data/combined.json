@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-09-05T15:43:42.149355Z",
-  "as_of_date": "2026-09-05",
+  "generated_at": "2026-09-06T15:55:39.899049Z",
+  "as_of_date": "2026-09-06",
   "teams": [
     {
       "id": "139",
       "name": "Rays",
       "full_name": "Tampa Bay Rays",
       "bullpen": {
-        "score": 0.729,
+        "score": 0.707,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
             "name": "Tyler Wells",
-            "availability": 0.55,
+            "availability": 0.15,
+            "days_rest": 1,
+            "recent_ip": 4.67
+          },
+          {
+            "name": "Cam Booser",
+            "availability": 0.45,
             "days_rest": 1,
             "recent_ip": 2.67
           },
           {
             "name": "Kevin Kelly",
-            "availability": 0.65,
+            "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Cam Booser",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Garrett Cleavinger",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.33
+            "recent_ip": 2.33
           },
           {
             "name": "Casey Legumina",
-            "availability": 0.7,
+            "availability": 0.9,
+            "days_rest": 3,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Bryan Baker",
+            "availability": 0.9,
             "days_rest": 2,
-            "recent_ip": 3.67
+            "recent_ip": 1.0
           },
           {
             "name": "Steven Matz",
-            "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 3.33
+            "availability": 1.0,
+            "days_rest": 4,
+            "recent_ip": 2.33
           },
           {
             "name": "Manuel Rodr\u00edguez",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 77,
-        "actual_wins": 84,
+        "actual_wins": 85,
         "actual_losses": 57,
-        "games_played": 141,
-        "win_pct": 0.596,
-        "expected_wins": 67.0,
-        "delta": 17.0,
-        "projected_wins": 96.5,
+        "games_played": 142,
+        "win_pct": 0.599,
+        "expected_wins": 67.5,
+        "delta": 17.5,
+        "projected_wins": 97.0,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 6,
-        "last10_losses": 4
+        "streak": "W2",
+        "last10_wins": 7,
+        "last10_losses": 3
       }
     },
     {
@@ -76,68 +76,68 @@
       "name": "White Sox",
       "full_name": "Chicago White Sox",
       "bullpen": {
-        "score": 0.764,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.714,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Hagen Smith",
-            "availability": 0.45,
+            "name": "Sean Newcomb",
+            "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Bryan Hudson",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Grant Taylor",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Trevor Richards",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 3.33
+            "recent_ip": 3.67
           },
           {
             "name": "Tyler Schweitzer",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 2.0
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.0
           },
           {
-            "name": "Sean Newcomb",
-            "availability": 1.0,
-            "days_rest": 3,
+            "name": "Trevor Richards",
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Tyler Davis",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 1.33
+          },
+          {
+            "name": "Hagen Smith",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Bryan Hudson",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Grant Taylor",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 68,
         "actual_wins": 74,
-        "actual_losses": 67,
-        "games_played": 141,
-        "win_pct": 0.525,
-        "expected_wins": 59.2,
-        "delta": 14.8,
-        "projected_wins": 85.0,
+        "actual_losses": 68,
+        "games_played": 142,
+        "win_pct": 0.521,
+        "expected_wins": 59.6,
+        "delta": 14.4,
+        "projected_wins": 84.4,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 6,
-        "last10_losses": 4
+        "streak": "L1",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     {
@@ -145,50 +145,50 @@
       "name": "Brewers",
       "full_name": "Milwaukee Brewers",
       "bullpen": {
-        "score": 0.7,
+        "score": 0.707,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Chad Patrick",
+            "name": "Aaron Ashby",
             "availability": 0.35,
+            "days_rest": 1,
+            "recent_ip": 4.0
+          },
+          {
+            "name": "DL Hall",
+            "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.33
           },
           {
+            "name": "JoJo Romero",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
             "name": "Antonio Senzatela",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Aaron Ashby",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Trevor Megill",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "DL Hall",
             "availability": 0.8,
             "days_rest": 2,
             "recent_ip": 3.0
           },
           {
-            "name": "Andrew Vaughn",
-            "availability": 1.0,
-            "days_rest": 5,
+            "name": "Chad Patrick",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Trevor Megill",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
             "name": "Abner Uribe",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 2.0
           }
         ]
@@ -196,17 +196,17 @@
       "expectation": {
         "preseason_win_total": 85,
         "actual_wins": 88,
-        "actual_losses": 54,
-        "games_played": 142,
-        "win_pct": 0.62,
-        "expected_wins": 74.5,
-        "delta": 13.5,
-        "projected_wins": 100.4,
+        "actual_losses": 55,
+        "games_played": 143,
+        "win_pct": 0.615,
+        "expected_wins": 75.0,
+        "delta": 13.0,
+        "projected_wins": 99.7,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
-        "last10_wins": 7,
-        "last10_losses": 3
+        "streak": "L1",
+        "last10_wins": 6,
+        "last10_losses": 4
       }
     },
     {
@@ -214,48 +214,48 @@
       "name": "Cardinals",
       "full_name": "St. Louis Cardinals",
       "bullpen": {
-        "score": 0.764,
+        "score": 0.85,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Cade Winquest",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 3.67
-          },
-          {
-            "name": "Riley O'Brien",
+            "name": "Luis Gastelum",
             "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 2.33
+            "recent_ip": 2.67
           },
           {
-            "name": "Justin Bruihl",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.33
+            "name": "Cade Winquest",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 3.67
           },
           {
             "name": "Gordon Graceffo",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 3.0
           },
           {
             "name": "Ryan Fernandez",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 2.67
           },
           {
-            "name": "George Soriano",
+            "name": "Justin Bruihl",
             "availability": 0.9,
             "days_rest": 2,
-            "recent_ip": 2.0
+            "recent_ip": 2.33
           },
           {
-            "name": "Luis Gastelum",
+            "name": "Riley O'Brien",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "George Soriano",
             "availability": 1.0,
             "days_rest": 3,
             "recent_ip": 2.0
@@ -265,15 +265,15 @@
       "expectation": {
         "preseason_win_total": 70,
         "actual_wins": 71,
-        "actual_losses": 71,
-        "games_played": 142,
-        "win_pct": 0.5,
-        "expected_wins": 61.4,
-        "delta": 9.6,
-        "projected_wins": 81.0,
+        "actual_losses": 72,
+        "games_played": 143,
+        "win_pct": 0.497,
+        "expected_wins": 61.8,
+        "delta": 9.2,
+        "projected_wins": 80.4,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W1",
+        "streak": "L1",
         "last10_wins": 5,
         "last10_losses": 5
       }
@@ -283,50 +283,50 @@
       "name": "Nationals",
       "full_name": "Washington Nationals",
       "bullpen": {
-        "score": 0.864,
+        "score": 0.829,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Luis Perales",
-            "availability": 0.35,
+            "name": "Jack Sinclair",
+            "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 3.0
+            "recent_ip": 1.67
           },
           {
-            "name": "Matt Waldron",
-            "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 3.67
+            "name": "Clayton Beeter",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.67
+          },
+          {
+            "name": "Luis Perales",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
           },
           {
             "name": "Jared Simpson",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.0
           },
           {
             "name": "Riley Cornelio",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 2.67
-          },
-          {
-            "name": "Erik Tolman",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
           },
           {
             "name": "Max Kranick",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 1.33
           },
           {
-            "name": "Clayton Beeter",
+            "name": "Orlando Ribalta",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -334,15 +334,15 @@
       "expectation": {
         "preseason_win_total": 66,
         "actual_wins": 67,
-        "actual_losses": 76,
-        "games_played": 143,
-        "win_pct": 0.469,
-        "expected_wins": 58.3,
-        "delta": 8.7,
-        "projected_wins": 75.9,
+        "actual_losses": 77,
+        "games_played": 144,
+        "win_pct": 0.465,
+        "expected_wins": 58.7,
+        "delta": 8.3,
+        "projected_wins": 75.4,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "L2",
+        "streak": "L3",
         "last10_wins": 5,
         "last10_losses": 5
       }
@@ -352,36 +352,36 @@
       "name": "Braves",
       "full_name": "Atlanta Braves",
       "bullpen": {
-        "score": 0.879,
+        "score": 0.786,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Didier Fuentes",
+            "name": "Ray Kerr",
             "availability": 0.35,
+            "days_rest": 1,
+            "recent_ip": 3.33
+          },
+          {
+            "name": "Brent Suter",
+            "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.0
           },
           {
-            "name": "Ray Kerr",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 3.33
+            "name": "Didier Fuentes",
+            "availability": 0.7,
+            "days_rest": 2,
+            "recent_ip": 3.0
           },
           {
             "name": "Elieser Hern\u00e1ndez",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 3.0
           },
           {
             "name": "Victor Mederos",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Brent Suter",
             "availability": 1.0,
             "days_rest": 4,
             "recent_ip": 2.0
@@ -389,13 +389,13 @@
           {
             "name": "Blake Burkhalter",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Dylan Dodd",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 1.0
           }
         ]
@@ -403,17 +403,17 @@
       "expectation": {
         "preseason_win_total": 87,
         "actual_wins": 84,
-        "actual_losses": 57,
-        "games_played": 141,
-        "win_pct": 0.596,
-        "expected_wins": 75.7,
-        "delta": 8.3,
-        "projected_wins": 96.5,
+        "actual_losses": 58,
+        "games_played": 142,
+        "win_pct": 0.592,
+        "expected_wins": 76.3,
+        "delta": 7.7,
+        "projected_wins": 95.8,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "W2",
-        "last10_wins": 8,
-        "last10_losses": 2
+        "streak": "L1",
+        "last10_wins": 7,
+        "last10_losses": 3
       }
     },
     {
@@ -421,66 +421,66 @@
       "name": "Marlins",
       "full_name": "Miami Marlins",
       "bullpen": {
-        "score": 0.75,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.671,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Bradley Blalock",
+            "name": "Dax Fulton",
             "availability": 0.35,
             "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Jack Ralston",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Josh Ekness",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Tyler Zuber",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Cade Gibson",
-            "availability": 0.8,
-            "days_rest": 2,
             "recent_ip": 2.67
           },
           {
             "name": "Calvin Faucher",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
           },
           {
             "name": "Victor Vodnik",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Tyler Zuber",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Bradley Blalock",
+            "availability": 0.7,
+            "days_rest": 2,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Josh Ekness",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.67
+          },
+          {
+            "name": "Cade Gibson",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
+            "days_rest": 3,
+            "recent_ip": 1.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 72,
         "actual_wins": 71,
-        "actual_losses": 71,
-        "games_played": 142,
-        "win_pct": 0.5,
-        "expected_wins": 63.1,
-        "delta": 7.9,
-        "projected_wins": 81.0,
+        "actual_losses": 72,
+        "games_played": 143,
+        "win_pct": 0.497,
+        "expected_wins": 63.6,
+        "delta": 7.4,
+        "projected_wins": 80.4,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "L2",
+        "streak": "L3",
         "last10_wins": 4,
         "last10_losses": 6
       }
@@ -490,66 +490,66 @@
       "name": "Rockies",
       "full_name": "Colorado Rockies",
       "bullpen": {
-        "score": 0.743,
+        "score": 0.664,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Mark Manfredi",
-            "availability": 0.35,
+            "name": "Jordan Romano",
+            "availability": 0.45,
             "days_rest": 1,
-            "recent_ip": 3.33
+            "recent_ip": 2.67
           },
           {
-            "name": "Jordan Romano",
+            "name": "Jaden Hill",
             "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.0
           },
           {
-            "name": "Jimmy Herget",
+            "name": "Juan Mejia",
             "availability": 0.65,
             "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Brennan Bernardino",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Jaden Hill",
-            "availability": 1.0,
-            "days_rest": 3,
             "recent_ip": 2.0
           },
           {
             "name": "Nick Frasso",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Zach Agnos",
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 1.67
           },
           {
-            "name": "Juan Mejia",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.67
+            "name": "Mark Manfredi",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Jimmy Herget",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 56,
-        "actual_wins": 54,
+        "actual_wins": 55,
         "actual_losses": 87,
-        "games_played": 141,
-        "win_pct": 0.383,
-        "expected_wins": 48.7,
-        "delta": 5.3,
-        "projected_wins": 62.0,
+        "games_played": 142,
+        "win_pct": 0.387,
+        "expected_wins": 49.1,
+        "delta": 5.9,
+        "projected_wins": 62.7,
         "label": "Hot \ud83d\udd25",
         "description": "Significantly outperforming expectations",
-        "streak": "L1",
+        "streak": "W1",
         "last10_wins": 4,
         "last10_losses": 6
       }
@@ -559,66 +559,66 @@
       "name": "D-backs",
       "full_name": "Arizona Diamondbacks",
       "bullpen": {
-        "score": 0.886,
+        "score": 0.757,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Derek Law",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.33
-          },
-          {
-            "name": "Justin Martinez",
+            "name": "Brandyn Garcia",
             "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Jonathan Lo\u00e1isiga",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Juan Morillo",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Kevin Ginkel",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.67
+          },
+          {
+            "name": "Derek Law",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 3.33
+          },
+          {
+            "name": "Justin Martinez",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
             "name": "Jose Cabrera",
             "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Taylor Clarke",
-            "availability": 1.0,
             "days_rest": 4,
-            "recent_ip": 1.0
+            "recent_ip": 2.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 80,
-        "actual_wins": 74,
+        "actual_wins": 75,
         "actual_losses": 68,
-        "games_played": 142,
-        "win_pct": 0.521,
-        "expected_wins": 70.1,
-        "delta": 3.9,
-        "projected_wins": 84.4,
+        "games_played": 143,
+        "win_pct": 0.524,
+        "expected_wins": 70.6,
+        "delta": 4.4,
+        "projected_wins": 85.0,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "L1",
+        "streak": "W1",
         "last10_wins": 5,
         "last10_losses": 5
       }
@@ -628,66 +628,66 @@
       "name": "Twins",
       "full_name": "Minnesota Twins",
       "bullpen": {
-        "score": 0.8,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.671,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Garrett Acton",
-            "availability": 0.25,
+            "name": "Kody Funderburk",
+            "availability": 0.55,
             "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Yoendrys G\u00f3mez",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Garrett Acton",
+            "availability": 0.6,
+            "days_rest": 2,
             "recent_ip": 4.0
           },
           {
-            "name": "Taylor Rogers",
+            "name": "Jeff Hoffman",
             "availability": 0.65,
             "days_rest": 1,
-            "recent_ip": 1.67
+            "recent_ip": 2.33
+          },
+          {
+            "name": "A.J. Minter",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
           },
           {
             "name": "Connor Prielipp",
             "availability": 0.8,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 5.0
           },
           {
-            "name": "Tommy Nance",
+            "name": "Taylor Rogers",
             "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 3.33
-          },
-          {
-            "name": "Kody Funderburk",
-            "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 2,
             "recent_ip": 1.67
-          },
-          {
-            "name": "Yoendrys G\u00f3mez",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Travis Adams",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 73,
-        "actual_wins": 67,
+        "actual_wins": 68,
         "actual_losses": 74,
-        "games_played": 141,
-        "win_pct": 0.475,
-        "expected_wins": 63.5,
-        "delta": 3.5,
-        "projected_wins": 77.0,
+        "games_played": 142,
+        "win_pct": 0.479,
+        "expected_wins": 64.0,
+        "delta": 4.0,
+        "projected_wins": 77.6,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "L2",
+        "streak": "W1",
         "last10_wins": 4,
         "last10_losses": 6
       }
@@ -697,68 +697,68 @@
       "name": "Cubs",
       "full_name": "Chicago Cubs",
       "bullpen": {
-        "score": 0.85,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.714,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Aaron Civale",
-            "availability": 0.35,
+            "name": "Ryan Zeferjahn",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.33
+          },
+          {
+            "name": "Ryan Rolison",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.33
+          },
+          {
+            "name": "Caleb Thielbar",
+            "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.0
           },
           {
-            "name": "Ryan Rolison",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 3.67
+            "name": "Trent Thornton",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.33
           },
           {
-            "name": "Colin Rea",
-            "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Ryan Zeferjahn",
-            "availability": 0.9,
+            "name": "Aaron Civale",
+            "availability": 0.7,
             "days_rest": 2,
-            "recent_ip": 1.67
+            "recent_ip": 3.0
           },
           {
             "name": "Daniel Palencia",
             "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Caleb Thielbar",
-            "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 1.67
           },
           {
             "name": "Tyler Ferguson",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 88,
-        "actual_wins": 80,
+        "actual_wins": 81,
         "actual_losses": 62,
-        "games_played": 142,
-        "win_pct": 0.563,
-        "expected_wins": 77.1,
-        "delta": 2.9,
-        "projected_wins": 91.3,
+        "games_played": 143,
+        "win_pct": 0.566,
+        "expected_wins": 77.7,
+        "delta": 3.3,
+        "projected_wins": 91.8,
         "label": "Ahead \ud83d\udcc8",
         "description": "Slightly outperforming expectations",
-        "streak": "W2",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W3",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     {
@@ -766,206 +766,68 @@
       "name": "Guardians",
       "full_name": "Cleveland Guardians",
       "bullpen": {
-        "score": 0.536,
-        "label": "Half",
-        "emoji": "\ud83d\udfe1",
+        "score": 0.764,
+        "label": "Full",
+        "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Hunter Gaddis",
-            "availability": 0.25,
+            "name": "Matt Festa",
+            "availability": 0.55,
             "days_rest": 1,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Hunter Gaddis",
+            "availability": 0.7,
+            "days_rest": 2,
             "recent_ip": 3.33
           },
           {
             "name": "Slade Cecconi",
-            "availability": 0.35,
-            "days_rest": 1,
+            "availability": 0.7,
+            "days_rest": 2,
             "recent_ip": 2.67
           },
           {
             "name": "Erik Sabrowski",
-            "availability": 0.45,
-            "days_rest": 1,
+            "availability": 0.8,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
             "name": "Daniel Espino",
-            "availability": 0.45,
-            "days_rest": 1,
+            "availability": 0.8,
+            "days_rest": 2,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Craig Yoho",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 2.33
           },
           {
             "name": "Carlos Hern\u00e1ndez",
-            "availability": 0.8,
-            "days_rest": 2,
+            "availability": 0.9,
+            "days_rest": 3,
             "recent_ip": 3.0
           },
           {
-            "name": "Matt Festa",
+            "name": "Craig Yoho",
             "availability": 0.9,
             "days_rest": 2,
-            "recent_ip": 2.0
+            "recent_ip": 2.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 80,
         "actual_wins": 72,
-        "actual_losses": 70,
-        "games_played": 142,
-        "win_pct": 0.507,
-        "expected_wins": 70.1,
-        "delta": 1.9,
-        "projected_wins": 82.1,
+        "actual_losses": 71,
+        "games_played": 143,
+        "win_pct": 0.503,
+        "expected_wins": 70.6,
+        "delta": 1.4,
+        "projected_wins": 81.6,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "W2",
-        "last10_wins": 6,
-        "last10_losses": 4
-      }
-    },
-    {
-      "id": "134",
-      "name": "Pirates",
-      "full_name": "Pittsburgh Pirates",
-      "bullpen": {
-        "score": 0.757,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
-        "relievers": [
-          {
-            "name": "Mason Montgomery",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Wilber Dotel",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Khristian Curtis",
-            "availability": 0.7,
-            "days_rest": 2,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Carmen Mlodzinski",
-            "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Yohan Ram\u00edrez",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Luke Weaver",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Camilo Doval",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
-          }
-        ]
-      },
-      "expectation": {
-        "preseason_win_total": 78,
-        "actual_wins": 70,
-        "actual_losses": 72,
-        "games_played": 142,
-        "win_pct": 0.493,
-        "expected_wins": 68.4,
-        "delta": 1.6,
-        "projected_wins": 79.9,
-        "label": "On Track \u27a1\ufe0f",
-        "description": "Performing in line with expectations",
-        "streak": "W2",
-        "last10_wins": 7,
-        "last10_losses": 3
-      }
-    },
-    {
-      "id": "135",
-      "name": "Padres",
-      "full_name": "San Diego Padres",
-      "bullpen": {
-        "score": 0.757,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
-        "relievers": [
-          {
-            "name": "Mason Miller",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Bradgley Rodriguez",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Yuki Matsui",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Adrian Morejon",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Kyle Hart",
-            "availability": 0.9,
-            "days_rest": 3,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Wandy Peralta",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Jhony Brito",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.67
-          }
-        ]
-      },
-      "expectation": {
-        "preseason_win_total": 84,
-        "actual_wins": 74,
-        "actual_losses": 67,
-        "games_played": 141,
-        "win_pct": 0.525,
-        "expected_wins": 73.1,
-        "delta": 0.9,
-        "projected_wins": 85.0,
-        "label": "On Track \u27a1\ufe0f",
-        "description": "Performing in line with expectations",
-        "streak": "W1",
-        "last10_wins": 3,
-        "last10_losses": 7
+        "streak": "L1",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     {
@@ -973,66 +835,66 @@
       "name": "Yankees",
       "full_name": "New York Yankees",
       "bullpen": {
-        "score": 0.807,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.729,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Will Warren",
-            "availability": 0.45,
+            "name": "Brent Headrick",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "John Schreiber",
+            "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 2.33
           },
           {
-            "name": "David Bednar",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Paul Blackburn",
+            "name": "Michael Fulmer",
             "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 1.67
           },
           {
-            "name": "Michael Fulmer",
-            "availability": 1.0,
-            "days_rest": 3,
+            "name": "Tim Hill",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 0.67
+          },
+          {
+            "name": "Will Warren",
+            "availability": 0.8,
+            "days_rest": 2,
             "recent_ip": 2.33
           },
           {
-            "name": "Luis Gil",
-            "availability": 1.0,
-            "days_rest": 5,
+            "name": "David Bednar",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
-            "name": "Brent Headrick",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "John Schreiber",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "name": "Paul Blackburn",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 91,
-        "actual_wins": 80,
+        "actual_wins": 81,
         "actual_losses": 61,
-        "games_played": 141,
-        "win_pct": 0.567,
-        "expected_wins": 79.2,
-        "delta": 0.8,
-        "projected_wins": 91.9,
+        "games_played": 142,
+        "win_pct": 0.57,
+        "expected_wins": 79.8,
+        "delta": 1.2,
+        "projected_wins": 92.4,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "L1",
+        "streak": "W1",
         "last10_wins": 6,
         "last10_losses": 4
       }
@@ -1042,68 +904,68 @@
       "name": "Red Sox",
       "full_name": "Boston Red Sox",
       "bullpen": {
-        "score": 0.8,
+        "score": 0.843,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Aroldis Chapman",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Garrett Whitlock",
+            "name": "Wyatt Olds",
             "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 2.0
+            "recent_ip": 3.33
           },
           {
-            "name": "Alec Gamboa",
-            "availability": 0.8,
-            "days_rest": 4,
-            "recent_ip": 4.0
+            "name": "Greg Weissert",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.67
           },
           {
             "name": "Brayan Bello",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 3.0
           },
           {
-            "name": "Erik Miller",
+            "name": "Garrett Whitlock",
             "availability": 0.9,
             "days_rest": 2,
             "recent_ip": 2.0
           },
           {
-            "name": "Wyatt Olds",
+            "name": "Aroldis Chapman",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Alec Gamboa",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.33
+            "days_rest": 5,
+            "recent_ip": 2.0
           },
           {
             "name": "Raymond Burgos",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 2.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 87,
-        "actual_wins": 77,
+        "actual_wins": 78,
         "actual_losses": 65,
-        "games_played": 142,
-        "win_pct": 0.542,
-        "expected_wins": 76.3,
-        "delta": 0.7,
-        "projected_wins": 87.8,
+        "games_played": 143,
+        "win_pct": 0.545,
+        "expected_wins": 76.8,
+        "delta": 1.2,
+        "projected_wins": 88.4,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "W2",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W3",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     {
@@ -1111,68 +973,206 @@
       "name": "Phillies",
       "full_name": "Philadelphia Phillies",
       "bullpen": {
-        "score": 0.85,
+        "score": 0.793,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Alex McFarlane",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Orion Kerkering",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Tim Mayza",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.0
-          },
-          {
             "name": "Jonathan Bowlan",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.33
           },
           {
             "name": "Jos\u00e9 Alvarado",
-            "availability": 1.0,
-            "days_rest": 5,
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 1.0
           },
           {
             "name": "Jhoan Duran",
-            "availability": 1.0,
-            "days_rest": 5,
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Alex McFarlane",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Orion Kerkering",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Tim Mayza",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 1.0
           },
           {
             "name": "Chase Shugart",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 90,
-        "actual_wins": 79,
+        "actual_wins": 80,
         "actual_losses": 62,
-        "games_played": 141,
-        "win_pct": 0.56,
-        "expected_wins": 78.3,
-        "delta": 0.7,
-        "projected_wins": 90.8,
+        "games_played": 142,
+        "win_pct": 0.563,
+        "expected_wins": 78.9,
+        "delta": 1.1,
+        "projected_wins": 91.3,
         "label": "On Track \u27a1\ufe0f",
         "description": "Performing in line with expectations",
-        "streak": "L2",
+        "streak": "W1",
+        "last10_wins": 7,
+        "last10_losses": 3
+      }
+    },
+    {
+      "id": "134",
+      "name": "Pirates",
+      "full_name": "Pittsburgh Pirates",
+      "bullpen": {
+        "score": 0.743,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
+        "relievers": [
+          {
+            "name": "Yohan Ram\u00edrez",
+            "availability": 0.35,
+            "days_rest": 1,
+            "recent_ip": 3.67
+          },
+          {
+            "name": "Isaac Mattson",
+            "availability": 0.45,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Mason Montgomery",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Wilber Dotel",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Carmen Mlodzinski",
+            "availability": 0.9,
+            "days_rest": 4,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Khristian Curtis",
+            "availability": 0.9,
+            "days_rest": 3,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Camilo Doval",
+            "availability": 1.0,
+            "days_rest": 4,
+            "recent_ip": 2.0
+          }
+        ]
+      },
+      "expectation": {
+        "preseason_win_total": 78,
+        "actual_wins": 70,
+        "actual_losses": 73,
+        "games_played": 143,
+        "win_pct": 0.49,
+        "expected_wins": 68.9,
+        "delta": 1.1,
+        "projected_wins": 79.3,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations",
+        "streak": "L1",
         "last10_wins": 6,
         "last10_losses": 4
+      }
+    },
+    {
+      "id": "135",
+      "name": "Padres",
+      "full_name": "San Diego Padres",
+      "bullpen": {
+        "score": 0.657,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
+        "relievers": [
+          {
+            "name": "Jhony Brito",
+            "availability": 0.35,
+            "days_rest": 1,
+            "recent_ip": 3.67
+          },
+          {
+            "name": "Griffin Canning",
+            "availability": 0.35,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "David Morgan",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Wandy Peralta",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Mason Miller",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Bradgley Rodriguez",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Yuki Matsui",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          }
+        ]
+      },
+      "expectation": {
+        "preseason_win_total": 84,
+        "actual_wins": 74,
+        "actual_losses": 68,
+        "games_played": 142,
+        "win_pct": 0.521,
+        "expected_wins": 73.6,
+        "delta": 0.4,
+        "projected_wins": 84.4,
+        "label": "On Track \u27a1\ufe0f",
+        "description": "Performing in line with expectations",
+        "streak": "L1",
+        "last10_wins": 3,
+        "last10_losses": 7
       }
     },
     {
@@ -1180,12 +1180,18 @@
       "name": "Reds",
       "full_name": "Cincinnati Reds",
       "bullpen": {
-        "score": 0.757,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.664,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
             "name": "Tejay Antone",
+            "availability": 0.45,
+            "days_rest": 1,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Emilio Pag\u00e1n",
             "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.0
@@ -1194,54 +1200,48 @@
             "name": "Julian Garcia",
             "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 2.67
+            "recent_ip": 2.0
           },
           {
-            "name": "Pierce Johnson",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Luis Mey",
+            "name": "Brock Burke",
             "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Tony Santillan",
-            "availability": 1.0,
-            "days_rest": 3,
+            "availability": 0.65,
+            "days_rest": 1,
             "recent_ip": 2.0
           },
           {
-            "name": "Emilio Pag\u00e1n",
-            "availability": 1.0,
-            "days_rest": 3,
+            "name": "Luis Mey",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
-            "name": "Brock Burke",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "name": "Pierce Johnson",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 80,
-        "actual_wins": 67,
+        "actual_wins": 68,
         "actual_losses": 74,
-        "games_played": 141,
-        "win_pct": 0.475,
-        "expected_wins": 69.6,
-        "delta": -2.6,
-        "projected_wins": 77.0,
+        "games_played": 142,
+        "win_pct": 0.479,
+        "expected_wins": 70.1,
+        "delta": -2.1,
+        "projected_wins": 77.6,
         "label": "Behind \ud83d\udcc9",
         "description": "Slightly underperforming expectations",
-        "streak": "L1",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "W1",
+        "last10_wins": 6,
+        "last10_losses": 4
       }
     },
     {
@@ -1249,66 +1249,66 @@
       "name": "Rangers",
       "full_name": "Texas Rangers",
       "bullpen": {
-        "score": 0.7,
+        "score": 0.686,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Kumar Rocker",
-            "availability": 0.25,
-            "days_rest": 1,
-            "recent_ip": 5.0
-          },
-          {
-            "name": "Robby Ahlstrom",
+            "name": "Tyler Alexander",
             "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Chase Silseth",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 1.67
+            "recent_ip": 2.33
           },
           {
             "name": "Adam Macko",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Kumar Rocker",
+            "availability": 0.6,
+            "days_rest": 2,
+            "recent_ip": 5.0
+          },
+          {
+            "name": "Jacob Latz",
             "availability": 0.65,
             "days_rest": 1,
-            "recent_ip": 1.67
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Jakob Junis",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
           },
           {
             "name": "Jordan Montgomery",
             "availability": 0.9,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 3.0
           },
           {
-            "name": "Ben Peoples",
-            "availability": 1.0,
-            "days_rest": 3,
+            "name": "Robby Ahlstrom",
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Trevor Williams",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 83,
         "actual_wins": 70,
-        "actual_losses": 72,
-        "games_played": 142,
-        "win_pct": 0.493,
-        "expected_wins": 72.8,
-        "delta": -2.8,
-        "projected_wins": 79.9,
+        "actual_losses": 73,
+        "games_played": 143,
+        "win_pct": 0.49,
+        "expected_wins": 73.3,
+        "delta": -3.3,
+        "projected_wins": 79.3,
         "label": "Behind \ud83d\udcc9",
         "description": "Slightly underperforming expectations",
-        "streak": "L1",
+        "streak": "L2",
         "last10_wins": 4,
         "last10_losses": 6
       }
@@ -1318,66 +1318,66 @@
       "name": "Astros",
       "full_name": "Houston Astros",
       "bullpen": {
-        "score": 0.714,
+        "score": 0.7,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Bennett Sousa",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 3.67
-          },
-          {
-            "name": "Bryan Abreu",
-            "availability": 0.45,
-            "days_rest": 1,
-            "recent_ip": 3.33
-          },
-          {
             "name": "Josh Hader",
-            "availability": 0.65,
+            "availability": 0.45,
             "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Enyel De Los Santos",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Tatsuya Imai",
-            "availability": 0.9,
-            "days_rest": 4,
             "recent_ip": 3.0
           },
           {
             "name": "AJ Blubaugh",
-            "availability": 0.9,
-            "days_rest": 2,
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.67
+          },
+          {
+            "name": "Enyel De Los Santos",
+            "availability": 0.55,
+            "days_rest": 1,
             "recent_ip": 2.0
           },
           {
             "name": "Kai-Wei Teng",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Tatsuya Imai",
+            "availability": 0.9,
+            "days_rest": 5,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Bennett Sousa",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Bryan Abreu",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 87,
         "actual_wins": 73,
-        "actual_losses": 69,
-        "games_played": 142,
-        "win_pct": 0.514,
-        "expected_wins": 76.3,
-        "delta": -3.3,
-        "projected_wins": 83.3,
+        "actual_losses": 70,
+        "games_played": 143,
+        "win_pct": 0.51,
+        "expected_wins": 76.8,
+        "delta": -3.8,
+        "projected_wins": 82.7,
         "label": "Behind \ud83d\udcc9",
         "description": "Slightly underperforming expectations",
-        "streak": "W3",
+        "streak": "L1",
         "last10_wins": 7,
         "last10_losses": 3
       }
@@ -1387,42 +1387,36 @@
       "name": "Dodgers",
       "full_name": "Los Angeles Dodgers",
       "bullpen": {
-        "score": 0.757,
+        "score": 0.793,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Edgardo Henriquez",
+            "name": "Alex Vesia",
             "availability": 0.55,
             "days_rest": 1,
-            "recent_ip": 1.33
+            "recent_ip": 3.33
           },
           {
-            "name": "Jack Dreyer",
+            "name": "Tanner Scott",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Evan Phillips",
             "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 2.0
           },
           {
-            "name": "Kyle Hurt",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Tanner Scott",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Alex Vesia",
+            "name": "Jack Dreyer",
             "availability": 0.9,
             "days_rest": 2,
-            "recent_ip": 2.33
+            "recent_ip": 2.0
           },
           {
-            "name": "Brock Stewart",
+            "name": "Kyle Hurt",
             "availability": 0.9,
             "days_rest": 2,
             "recent_ip": 1.67
@@ -1430,25 +1424,31 @@
           {
             "name": "Justin Wrobleski",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
+          },
+          {
+            "name": "Brock Stewart",
+            "availability": 1.0,
+            "days_rest": 3,
+            "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 103,
-        "actual_wins": 84,
+        "actual_wins": 85,
         "actual_losses": 57,
-        "games_played": 141,
-        "win_pct": 0.596,
-        "expected_wins": 89.6,
-        "delta": -5.6,
-        "projected_wins": 96.5,
+        "games_played": 142,
+        "win_pct": 0.599,
+        "expected_wins": 90.3,
+        "delta": -5.3,
+        "projected_wins": 97.0,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "W2",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W3",
+        "last10_wins": 5,
+        "last10_losses": 5
       }
     },
     {
@@ -1456,68 +1456,68 @@
       "name": "Blue Jays",
       "full_name": "Toronto Blue Jays",
       "bullpen": {
-        "score": 0.671,
-        "label": "Half",
-        "emoji": "\ud83d\udfe1",
+        "score": 0.757,
+        "label": "Full",
+        "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Michael Lorenzen",
-            "availability": 0.25,
-            "days_rest": 1,
+            "availability": 0.6,
+            "days_rest": 2,
             "recent_ip": 4.0
           },
           {
+            "name": "Mason Fluharty",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Tyler Rogers",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
             "name": "Joe Mantiply",
-            "availability": 0.35,
-            "days_rest": 1,
+            "availability": 0.7,
+            "days_rest": 2,
             "recent_ip": 3.33
-          },
-          {
-            "name": "Brendon Little",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Braydon Fisher",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.0
           },
           {
             "name": "Spencer Arrighetti",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.67
           },
           {
-            "name": "Spencer Miles",
+            "name": "Brendon Little",
             "availability": 0.9,
             "days_rest": 2,
-            "recent_ip": 1.33
+            "recent_ip": 2.0
           },
           {
-            "name": "Ricky Tiedemann",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "name": "Braydon Fisher",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 88,
-        "actual_wins": 71,
+        "actual_wins": 72,
         "actual_losses": 71,
-        "games_played": 142,
-        "win_pct": 0.5,
-        "expected_wins": 77.1,
-        "delta": -6.1,
-        "projected_wins": 81.0,
+        "games_played": 143,
+        "win_pct": 0.503,
+        "expected_wins": 77.7,
+        "delta": -5.7,
+        "projected_wins": 81.6,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "W3",
-        "last10_wins": 7,
-        "last10_losses": 3
+        "streak": "W4",
+        "last10_wins": 8,
+        "last10_losses": 2
       }
     },
     {
@@ -1525,68 +1525,68 @@
       "name": "Orioles",
       "full_name": "Baltimore Orioles",
       "bullpen": {
-        "score": 0.793,
+        "score": 0.786,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Josh Walker",
-            "availability": 0.55,
+            "name": "Albert Su\u00e1rez",
+            "availability": 0.25,
             "days_rest": 1,
+            "recent_ip": 4.0
+          },
+          {
+            "name": "Rico Garcia",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.33
+          },
+          {
+            "name": "Josh Walker",
+            "availability": 0.8,
+            "days_rest": 2,
             "recent_ip": 2.67
           },
           {
             "name": "Cam Sanders",
-            "availability": 0.65,
-            "days_rest": 1,
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
             "name": "Alex Hoppe",
-            "availability": 0.65,
-            "days_rest": 1,
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.33
+          },
+          {
+            "name": "Luis De Le\u00f3n",
+            "availability": 1.0,
+            "days_rest": 3,
             "recent_ip": 1.67
           },
           {
             "name": "Grant Wolfram",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Luis De Le\u00f3n",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Rico Garcia",
             "availability": 1.0,
             "days_rest": 3,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Andrew Kittredge",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.67
+            "recent_ip": 1.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 86,
         "actual_wins": 69,
-        "actual_losses": 73,
-        "games_played": 142,
-        "win_pct": 0.486,
-        "expected_wins": 75.4,
-        "delta": -6.4,
-        "projected_wins": 78.7,
+        "actual_losses": 74,
+        "games_played": 143,
+        "win_pct": 0.483,
+        "expected_wins": 75.9,
+        "delta": -6.9,
+        "projected_wins": 78.2,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L4",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "L5",
+        "last10_wins": 4,
+        "last10_losses": 6
       }
     },
     {
@@ -1594,137 +1594,68 @@
       "name": "Angels",
       "full_name": "Los Angeles Angels",
       "bullpen": {
-        "score": 0.9,
+        "score": 0.821,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Samy Natera Jr.",
+            "name": "Jos\u00e9 Fermin",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Ryan Watson",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Luke Murphy",
             "availability": 0.65,
             "days_rest": 1,
             "recent_ip": 1.67
           },
           {
-            "name": "Jos\u00e9 Fermin",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Tayler Saucedo",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Blake Weiman",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.33
+            "name": "Samy Natera Jr.",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.67
           },
           {
             "name": "Sammy Peralta",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.33
           },
           {
-            "name": "Ryan Watson",
+            "name": "Tayler Saucedo",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Ben Joyce",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 4,
             "recent_ip": 1.0
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 71,
-        "actual_wins": 53,
+        "actual_wins": 54,
         "actual_losses": 88,
-        "games_played": 141,
-        "win_pct": 0.376,
-        "expected_wins": 61.8,
-        "delta": -8.8,
-        "projected_wins": 60.9,
-        "label": "Cold \u2744\ufe0f",
-        "description": "Significantly underperforming expectations",
-        "streak": "L3",
-        "last10_wins": 1,
-        "last10_losses": 9
-      }
-    },
-    {
-      "id": "118",
-      "name": "Royals",
-      "full_name": "Kansas City Royals",
-      "bullpen": {
-        "score": 0.771,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
-        "relievers": [
-          {
-            "name": "Nolan Hoffman",
-            "availability": 0.35,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Easton McGee",
-            "availability": 0.35,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Nate Pearson",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Craig Kimbrel",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Steven Cruz",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Anthony Gose",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Alex Lange",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 1.0
-          }
-        ]
-      },
-      "expectation": {
-        "preseason_win_total": 82,
-        "actual_wins": 63,
-        "actual_losses": 79,
         "games_played": 142,
-        "win_pct": 0.444,
-        "expected_wins": 71.9,
-        "delta": -8.9,
-        "projected_wins": 71.9,
+        "win_pct": 0.38,
+        "expected_wins": 62.2,
+        "delta": -8.2,
+        "projected_wins": 61.6,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L1",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "W1",
+        "last10_wins": 2,
+        "last10_losses": 8
       }
     },
     {
@@ -1739,18 +1670,87 @@
       },
       "expectation": {
         "preseason_win_total": 75,
-        "actual_wins": 56,
+        "actual_wins": 57,
         "actual_losses": 86,
-        "games_played": 142,
-        "win_pct": 0.394,
-        "expected_wins": 65.7,
-        "delta": -9.7,
-        "projected_wins": 63.9,
+        "games_played": 143,
+        "win_pct": 0.399,
+        "expected_wins": 66.2,
+        "delta": -9.2,
+        "projected_wins": 64.6,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "W3",
+        "streak": "W4",
         "last10_wins": 5,
         "last10_losses": 5
+      }
+    },
+    {
+      "id": "118",
+      "name": "Royals",
+      "full_name": "Kansas City Royals",
+      "bullpen": {
+        "score": 0.7,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
+        "relievers": [
+          {
+            "name": "Craig Kimbrel",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Anthony Gose",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Alex Lange",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Jose Cuas",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Nolan Hoffman",
+            "availability": 0.7,
+            "days_rest": 2,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Easton McGee",
+            "availability": 0.7,
+            "days_rest": 2,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Nate Pearson",
+            "availability": 1.0,
+            "days_rest": 3,
+            "recent_ip": 2.33
+          }
+        ]
+      },
+      "expectation": {
+        "preseason_win_total": 82,
+        "actual_wins": 63,
+        "actual_losses": 80,
+        "games_played": 143,
+        "win_pct": 0.441,
+        "expected_wins": 72.4,
+        "delta": -9.4,
+        "projected_wins": 71.4,
+        "label": "Cold \u2744\ufe0f",
+        "description": "Significantly underperforming expectations",
+        "streak": "L2",
+        "last10_wins": 4,
+        "last10_losses": 6
       }
     },
     {
@@ -1758,135 +1758,66 @@
       "name": "Tigers",
       "full_name": "Detroit Tigers",
       "bullpen": {
-        "score": 0.679,
+        "score": 0.743,
         "label": "Half",
         "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Tyler Holton",
-            "availability": 0.35,
+            "name": "Beau Brieske",
+            "availability": 0.45,
             "days_rest": 1,
-            "recent_ip": 3.0
+            "recent_ip": 3.67
           },
           {
-            "name": "Jacob Waguespack",
+            "name": "Kyle Finnegan",
             "availability": 0.55,
             "days_rest": 1,
             "recent_ip": 3.33
           },
           {
-            "name": "Beau Brieske",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 2.67
+            "name": "Tyler Holton",
+            "availability": 0.7,
+            "days_rest": 2,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Jacob Waguespack",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 3.33
           },
           {
             "name": "Tyler Kinley",
-            "availability": 0.65,
-            "days_rest": 1,
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.33
           },
           {
             "name": "Kenley Jansen",
-            "availability": 0.65,
-            "days_rest": 1,
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 2.0
           },
           {
-            "name": "Kyle Finnegan",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Yilber D\u00edaz",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
+            "name": "Drew Sommers",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.33
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 85,
-        "actual_wins": 64,
+        "actual_wins": 65,
         "actual_losses": 77,
-        "games_played": 141,
-        "win_pct": 0.454,
-        "expected_wins": 74.0,
-        "delta": -10.0,
-        "projected_wins": 73.5,
-        "label": "Cold \u2744\ufe0f",
-        "description": "Significantly underperforming expectations",
-        "streak": "L2",
-        "last10_wins": 3,
-        "last10_losses": 7
-      }
-    },
-    {
-      "id": "136",
-      "name": "Mariners",
-      "full_name": "Seattle Mariners",
-      "bullpen": {
-        "score": 0.729,
-        "label": "Half",
-        "emoji": "\ud83d\udfe1",
-        "relievers": [
-          {
-            "name": "Seranthony Dom\u00ednguez",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.33
-          },
-          {
-            "name": "Andr\u00e9s Mu\u00f1oz",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Jos\u00e9 A. Ferrer",
-            "availability": 0.55,
-            "days_rest": 1,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Cooper Criswell",
-            "availability": 0.65,
-            "days_rest": 1,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Gabe Speier",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Carlos Vargas",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Michael Rucker",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
-          }
-        ]
-      },
-      "expectation": {
-        "preseason_win_total": 89,
-        "actual_wins": 66,
-        "actual_losses": 76,
         "games_played": 142,
-        "win_pct": 0.465,
-        "expected_wins": 78.0,
-        "delta": -12.0,
-        "projected_wins": 75.3,
+        "win_pct": 0.458,
+        "expected_wins": 74.5,
+        "delta": -9.5,
+        "projected_wins": 74.2,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L2",
+        "streak": "W1",
         "last10_wins": 3,
         "last10_losses": 7
       }
@@ -1896,68 +1827,137 @@
       "name": "Giants",
       "full_name": "San Francisco Giants",
       "bullpen": {
-        "score": 0.821,
-        "label": "Full",
-        "emoji": "\ud83d\udfe2",
+        "score": 0.671,
+        "label": "Half",
+        "emoji": "\ud83d\udfe1",
         "relievers": [
           {
-            "name": "Yunior Marte",
-            "availability": 0.25,
+            "name": "Trent Harris",
+            "availability": 0.55,
             "days_rest": 1,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Reiver Sanmartin",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.0
+          },
+          {
+            "name": "Carson Seymour",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Yunior Marte",
+            "availability": 0.6,
+            "days_rest": 2,
             "recent_ip": 5.0
+          },
+          {
+            "name": "Jason Foley",
+            "availability": 0.65,
+            "days_rest": 1,
+            "recent_ip": 2.0
           },
           {
             "name": "Cesar Perdomo",
             "availability": 0.8,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 4.0
           },
           {
-            "name": "Reiver Sanmartin",
-            "availability": 0.8,
-            "days_rest": 2,
-            "recent_ip": 3.33
-          },
-          {
-            "name": "Trent Harris",
-            "availability": 0.9,
-            "days_rest": 2,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Jason Foley",
+            "name": "Ryan Walker",
             "availability": 1.0,
             "days_rest": 3,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Carson Seymour",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Dylan Smith",
-            "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
+            "recent_ip": 1.67
           }
         ]
       },
       "expectation": {
         "preseason_win_total": 80,
-        "actual_wins": 58,
+        "actual_wins": 59,
         "actual_losses": 84,
-        "games_played": 142,
-        "win_pct": 0.408,
-        "expected_wins": 70.1,
-        "delta": -12.1,
-        "projected_wins": 66.2,
+        "games_played": 143,
+        "win_pct": 0.413,
+        "expected_wins": 70.6,
+        "delta": -11.6,
+        "projected_wins": 66.8,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "L2",
-        "last10_wins": 4,
-        "last10_losses": 6
+        "streak": "W1",
+        "last10_wins": 5,
+        "last10_losses": 5
+      }
+    },
+    {
+      "id": "136",
+      "name": "Mariners",
+      "full_name": "Seattle Mariners",
+      "bullpen": {
+        "score": 0.8,
+        "label": "Full",
+        "emoji": "\ud83d\udfe2",
+        "relievers": [
+          {
+            "name": "Michael Rucker",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 3.33
+          },
+          {
+            "name": "Carlos Vargas",
+            "availability": 0.55,
+            "days_rest": 1,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Jos\u00e9 A. Ferrer",
+            "availability": 0.8,
+            "days_rest": 2,
+            "recent_ip": 2.67
+          },
+          {
+            "name": "Seranthony Dom\u00ednguez",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.33
+          },
+          {
+            "name": "Cooper Criswell",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 2.0
+          },
+          {
+            "name": "Andr\u00e9s Mu\u00f1oz",
+            "availability": 0.9,
+            "days_rest": 2,
+            "recent_ip": 1.67
+          },
+          {
+            "name": "Hoby Milner",
+            "availability": 1.0,
+            "days_rest": 3,
+            "recent_ip": 1.33
+          }
+        ]
+      },
+      "expectation": {
+        "preseason_win_total": 89,
+        "actual_wins": 66,
+        "actual_losses": 77,
+        "games_played": 143,
+        "win_pct": 0.462,
+        "expected_wins": 78.6,
+        "delta": -12.6,
+        "projected_wins": 74.8,
+        "label": "Cold \u2744\ufe0f",
+        "description": "Significantly underperforming expectations",
+        "streak": "L3",
+        "last10_wins": 2,
+        "last10_losses": 8
       }
     },
     {
@@ -1965,50 +1965,50 @@
       "name": "Mets",
       "full_name": "New York Mets",
       "bullpen": {
-        "score": 0.85,
+        "score": 0.814,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Kodai Senga",
-            "availability": 0.65,
+            "name": "Chris Devenski",
+            "availability": 0.35,
             "days_rest": 1,
-            "recent_ip": 2.0
+            "recent_ip": 2.67
           },
           {
             "name": "Jefry Yan",
-            "availability": 0.65,
+            "availability": 0.45,
             "days_rest": 1,
-            "recent_ip": 1.67
+            "recent_ip": 2.67
           },
           {
             "name": "Austin Warren",
-            "availability": 0.65,
-            "days_rest": 1,
+            "availability": 0.9,
+            "days_rest": 2,
             "recent_ip": 1.33
           },
           {
             "name": "Nate Lavender",
             "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
+            "days_rest": 4,
+            "recent_ip": 1.67
           },
           {
             "name": "Dedniel N\u00fa\u00f1ez",
             "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.33
+            "days_rest": 4,
+            "recent_ip": 1.33
           },
           {
             "name": "Daniel Duarte",
             "availability": 1.0,
-            "days_rest": 3,
-            "recent_ip": 2.0
+            "days_rest": 4,
+            "recent_ip": 1.33
           },
           {
-            "name": "Chris Devenski",
+            "name": "Dylan Ross",
             "availability": 1.0,
-            "days_rest": 3,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -2016,17 +2016,17 @@
       "expectation": {
         "preseason_win_total": 91,
         "actual_wins": 64,
-        "actual_losses": 77,
-        "games_played": 141,
-        "win_pct": 0.454,
-        "expected_wins": 79.2,
-        "delta": -15.2,
-        "projected_wins": 73.5,
+        "actual_losses": 78,
+        "games_played": 142,
+        "win_pct": 0.451,
+        "expected_wins": 79.8,
+        "delta": -15.8,
+        "projected_wins": 73.0,
         "label": "Cold \u2744\ufe0f",
         "description": "Significantly underperforming expectations",
-        "streak": "W2",
-        "last10_wins": 5,
-        "last10_losses": 5
+        "streak": "L1",
+        "last10_wins": 4,
+        "last10_losses": 6
       }
     }
   ]
