@@ -1,57 +1,39 @@
 {
-  "generated_at": "2026-10-01T18:38:48.123473Z",
-  "as_of_date": "2026-10-01",
+  "generated_at": "2026-10-02T18:08:34.110625Z",
+  "as_of_date": "2026-10-02",
   "teams": [
     {
       "id": "139",
       "name": "Rays",
       "full_name": "Tampa Bay Rays",
       "bullpen": {
-        "score": 0.986,
+        "score": 0.975,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Jesse Scholtens",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.0
           },
           {
             "name": "Manuel Rodr\u00edguez",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
+            "days_rest": 5,
+            "recent_ip": 1.0
           },
           {
-            "name": "Steven Matz",
+            "name": "Casey Legumina",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
           },
           {
-            "name": "Brody Hopkins",
+            "name": "Ian Seymour",
             "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Cam Booser",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Ty Johnson",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Cole Sulser",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 0.33
           }
         ]
       },
@@ -81,45 +63,21 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Kyle Harrison",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Aaron Ashby",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "JoJo Romero",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.67
-          },
-          {
             "name": "DL Hall",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.67
           },
           {
             "name": "Shane Drohan",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Antonio Senzatela",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 0.33
+            "recent_ip": 1.67
           },
           {
             "name": "Chad Patrick",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.33
           }
         ]
@@ -145,51 +103,21 @@
       "name": "White Sox",
       "full_name": "Chicago White Sox",
       "bullpen": {
-        "score": 0.971,
+        "score": 0.95,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Noah Schultz",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 3.33
-          },
-          {
             "name": "Trevor Richards",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.33
           },
           {
             "name": "Sean Newcomb",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Huascar Brazob\u00e1n",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Jordan Hicks",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Bryan Hudson",
-            "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 0.67
-          },
-          {
-            "name": "Tyler Davis",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.33
           }
         ]
       },
@@ -214,44 +142,32 @@
       "name": "Nationals",
       "full_name": "Washington Nationals",
       "bullpen": {
-        "score": 0.967,
+        "score": 1.0,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Jake Irvin",
-            "availability": 0.8,
-            "days_rest": 5,
-            "recent_ip": 5.0
-          },
-          {
             "name": "Will Dion",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
             "name": "Riley Cornelio",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
             "name": "Erik Tolman",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Richard Lovelady",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 1.33
           },
           {
             "name": "Jack Sinclair",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.67
           }
         ]
@@ -277,50 +193,32 @@
       "name": "Marlins",
       "full_name": "Miami Marlins",
       "bullpen": {
-        "score": 0.971,
+        "score": 1.0,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Bradley Blalock",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 3.33
-          },
-          {
-            "name": "Dax Fulton",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 2.67
-          },
-          {
             "name": "Michael Petersen",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Victor Vodnik",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 1.33
           },
           {
             "name": "Calvin Faucher",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Josh Ekness",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Sandy Alcantara",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -351,45 +249,15 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Victor Mederos",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
             "name": "AJ Smith-Shawver",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.33
-          },
-          {
-            "name": "Dylan Dodd",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Robert Suarez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Dylan Lee",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Raisel Iglesias",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
           },
           {
             "name": "Elieser Hern\u00e1ndez",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -420,27 +288,15 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Gordon Graceffo",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
             "name": "Justin Bruihl",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Cade Winquest",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 2.0
           },
           {
             "name": "Hancel Rincon",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -466,45 +322,15 @@
       "name": "Padres",
       "full_name": "San Diego Padres",
       "bullpen": {
-        "score": 0.983,
+        "score": 0.9,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Griffin Canning",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.0
-          },
-          {
-            "name": "Bradgley Rodriguez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "David Morgan",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Adrian Morejon",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Mason Miller",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Yuki Matsui",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.33
           }
         ]
       },
@@ -534,46 +360,34 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Jonathan Lo\u00e1isiga",
+            "name": "Brandyn Garcia",
             "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 2.0
+            "recent_ip": 1.0
           },
           {
-            "name": "Dennis Santana",
+            "name": "Ryne Nelson",
             "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Jose Cabrera",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Justin Martinez",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
+            "recent_ip": 1.0
           },
           {
             "name": "Kevin Ginkel",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "days_rest": 5,
+            "recent_ip": 0.67
           },
           {
             "name": "Juan Morillo",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "days_rest": 5,
+            "recent_ip": 0.33
           },
           {
-            "name": "Brandyn Garcia",
+            "name": "Justin Martinez",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.0
+            "days_rest": 5,
+            "recent_ip": 0.33
           }
         ]
       },
@@ -598,39 +412,15 @@
       "name": "Guardians",
       "full_name": "Cleveland Guardians",
       "bullpen": {
-        "score": 0.96,
+        "score": 0.8,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Austin Peterson",
             "availability": 0.8,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 5.0
-          },
-          {
-            "name": "Shawn Armstrong",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Slade Cecconi",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Cade Smith",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.67
-          },
-          {
-            "name": "Craig Yoho",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.33
           }
         ]
       },
@@ -660,33 +450,15 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Travis Adams",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Taylor Rogers",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Yoendrys G\u00f3mez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
             "name": "A.J. Minter",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Andrew Morris",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -717,43 +489,19 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Carmen Mlodzinski",
+            "name": "Antwone Kelly",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 2.33
-          },
-          {
-            "name": "Antwone Kelly",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.33
-          },
-          {
-            "name": "Mason Montgomery",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.67
           },
           {
             "name": "Lake Bachar",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.67
           },
           {
-            "name": "Yohan Ram\u00edrez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Gregory Soto",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Luke Weaver",
+            "name": "Mason Montgomery",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
@@ -807,44 +555,26 @@
       "name": "Rockies",
       "full_name": "Colorado Rockies",
       "bullpen": {
-        "score": 0.983,
+        "score": 1.0,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Ryan Feltner",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 3.67
-          },
-          {
             "name": "Mark Manfredi",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Brennan Bernardino",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Jordan Romano",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
           },
           {
             "name": "Nick Frasso",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Jaden Hill",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -877,19 +607,19 @@
           {
             "name": "Braxton Garrett",
             "availability": 0.8,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 5.0
           },
           {
             "name": "Colin Rea",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
             "name": "Jacob Webb",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -922,19 +652,19 @@
           {
             "name": "Patrick Sandoval",
             "availability": 0.8,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 4.67
           },
           {
             "name": "Wyatt Olds",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.67
           },
           {
             "name": "Jovani Mor\u00e1n",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.67
           }
         ]
@@ -960,50 +690,26 @@
       "name": "Phillies",
       "full_name": "Philadelphia Phillies",
       "bullpen": {
-        "score": 0.986,
+        "score": 1.0,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Jos\u00e9 Urquidy",
-            "availability": 0.9,
-            "days_rest": 5,
-            "recent_ip": 2.67
-          },
-          {
-            "name": "Chase Shugart",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Tanner Banks",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Brooks Raley",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Max Lazar",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
             "name": "Alex McFarlane",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Jes\u00fas Luzardo",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Jhoan Duran",
+            "availability": 1.0,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -1029,36 +735,18 @@
       "name": "Rangers",
       "full_name": "Texas Rangers",
       "bullpen": {
-        "score": 0.986,
+        "score": 0.983,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Jordan Montgomery",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.67
           },
           {
-            "name": "Robert Garcia",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
             "name": "Tyler Alexander",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Jakob Junis",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Jacob Latz",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
@@ -1066,13 +754,25 @@
           {
             "name": "Cody Bradford",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Chase Silseth",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
+            "recent_ip": 0.33
+          },
+          {
+            "name": "Robert Garcia",
+            "availability": 1.0,
+            "days_rest": 5,
+            "recent_ip": 0.33
+          },
+          {
+            "name": "Jakob Junis",
+            "availability": 1.0,
+            "days_rest": 5,
             "recent_ip": 0.33
           }
         ]
@@ -1103,43 +803,37 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Alex Vesia",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Evan Phillips",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
             "name": "Justin Wrobleski",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
             "name": "Bobby Miller",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
-            "name": "Kris Bubic",
+            "name": "Roki Sasaki",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
           },
           {
-            "name": "Brock Stewart",
+            "name": "Edwin D\u00edaz",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
           },
           {
-            "name": "Tanner Scott",
+            "name": "Alex Vesia",
+            "availability": 1.0,
+            "days_rest": 5,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Evan Phillips",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
@@ -1174,37 +868,19 @@
           {
             "name": "Zach McCambley",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
           },
           {
             "name": "Carson Spiers",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Connor Phillips",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Graham Ashcraft",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Tejay Antone",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
           },
           {
             "name": "Luis Mey",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -1230,44 +906,38 @@
       "name": "Astros",
       "full_name": "Houston Astros",
       "bullpen": {
-        "score": 0.983,
+        "score": 0.98,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Ethan Pecko",
             "availability": 0.9,
-            "days_rest": 4,
-            "recent_ip": 3.0
-          },
-          {
-            "name": "Ronel Blanco",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 2.0
+            "recent_ip": 3.0
           },
           {
             "name": "Miguel Ullola",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Bryan King",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Logan VanWey",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Tatsuya Imai",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -1319,44 +989,20 @@
       "name": "Blue Jays",
       "full_name": "Toronto Blue Jays",
       "bullpen": {
-        "score": 0.967,
+        "score": 1.0,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "John Klein",
-            "availability": 0.8,
-            "days_rest": 5,
-            "recent_ip": 4.0
-          },
-          {
-            "name": "Spencer Miles",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Braydon Fisher",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Brendon Little",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
             "name": "Mason Fluharty",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Paul Sewald",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -1382,45 +1028,27 @@
       "name": "Tigers",
       "full_name": "Detroit Tigers",
       "bullpen": {
-        "score": 0.967,
+        "score": 0.933,
         "label": "Full",
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
             "name": "Ty Madden",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 3.0
           },
           {
             "name": "Beau Brieske",
             "availability": 0.9,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.67
           },
           {
             "name": "Jack Flaherty",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Brant Hurter",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Jacob Waguespack",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Tyler Kinley",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.67
           }
         ]
       },
@@ -1450,33 +1078,21 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Mitch Farris",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 2.0
-          },
-          {
             "name": "Sammy Peralta",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Blake Weiman",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 1.67
           },
           {
             "name": "Trevor Martin",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Luke Murphy",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.33
           }
         ]
@@ -1535,43 +1151,25 @@
           {
             "name": "Connor Thomas",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.33
-          },
-          {
-            "name": "Jose Cuas",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.0
+            "recent_ip": 1.33
           },
           {
             "name": "Lucas Erceg",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
-          },
-          {
-            "name": "Anthony Gose",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.67
-          },
-          {
-            "name": "Spencer Bivens",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 0.67
           },
           {
             "name": "Nolan Hoffman",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.67
           },
           {
             "name": "Nate Pearson",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 0.67
           }
         ]
@@ -1604,43 +1202,25 @@
           {
             "name": "Hoby Milner",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 2.0
-          },
-          {
-            "name": "Michael Rucker",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Carlos Vargas",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Seranthony Dom\u00ednguez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Gabe Speier",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
           },
           {
             "name": "Eduard Bazardo",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Troy Taylor",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Cooper Criswell",
+            "availability": 1.0,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
@@ -1671,43 +1251,43 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Camilo Doval",
+            "name": "Braxton Roxby",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
+            "days_rest": 5,
+            "recent_ip": 1.67
+          },
+          {
+            "name": "Joel Kuhnel",
+            "availability": 1.0,
+            "days_rest": 5,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Sam Hentges",
+            "availability": 1.0,
+            "days_rest": 5,
+            "recent_ip": 1.0
+          },
+          {
+            "name": "Dylan Smith",
+            "availability": 1.0,
+            "days_rest": 5,
+            "recent_ip": 1.0
           },
           {
             "name": "Jason Foley",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
+            "days_rest": 5,
+            "recent_ip": 1.0
           },
           {
             "name": "Trent Harris",
             "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 2.0
-          },
-          {
-            "name": "Duncan Davitt",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Braxton Roxby",
-            "availability": 1.0,
-            "days_rest": 4,
-            "recent_ip": 1.67
-          },
-          {
-            "name": "Tristan Beck",
-            "availability": 1.0,
             "days_rest": 5,
-            "recent_ip": 1.33
+            "recent_ip": 1.0
           },
           {
-            "name": "Carson Seymour",
+            "name": "Camilo Doval",
             "availability": 1.0,
             "days_rest": 5,
             "recent_ip": 1.0
@@ -1740,39 +1320,15 @@
         "emoji": "\ud83d\udfe2",
         "relievers": [
           {
-            "name": "Dedniel N\u00fa\u00f1ez",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Nate Lavender",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Devin Williams",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
-            "name": "Tobias Myers",
-            "availability": 1.0,
-            "days_rest": 5,
-            "recent_ip": 1.0
-          },
-          {
             "name": "Austin Warren",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           },
           {
             "name": "Cionel P\u00e9rez",
             "availability": 1.0,
-            "days_rest": 4,
+            "days_rest": 5,
             "recent_ip": 1.0
           }
         ]
